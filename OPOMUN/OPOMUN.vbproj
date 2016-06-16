@@ -263,6 +263,83 @@
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="Content\SCSS\.csscomb.json" />
+    <Content Include="Content\SCSS\.scss-lint.yml" />
+    <Content Include="Content\SCSS\bootstrap-flex.scss" />
+    <Content Include="Content\SCSS\bootstrap-grid.scss" />
+    <Content Include="Content\SCSS\bootstrap-reboot.scss" />
+    <Content Include="Content\SCSS\bootstrap.scss" />
+    <Content Include="Content\SCSS\mixins\_alert.scss" />
+    <Content Include="Content\SCSS\mixins\_background-variant.scss" />
+    <Content Include="Content\SCSS\mixins\_border-radius.scss" />
+    <Content Include="Content\SCSS\mixins\_breakpoints.scss" />
+    <Content Include="Content\SCSS\mixins\_buttons.scss" />
+    <Content Include="Content\SCSS\mixins\_cards.scss" />
+    <Content Include="Content\SCSS\mixins\_center-block.scss" />
+    <Content Include="Content\SCSS\mixins\_clearfix.scss" />
+    <Content Include="Content\SCSS\mixins\_forms.scss" />
+    <Content Include="Content\SCSS\mixins\_gradients.scss" />
+    <Content Include="Content\SCSS\mixins\_grid-framework.scss" />
+    <Content Include="Content\SCSS\mixins\_grid.scss" />
+    <Content Include="Content\SCSS\mixins\_hover.scss" />
+    <Content Include="Content\SCSS\mixins\_image.scss" />
+    <Content Include="Content\SCSS\mixins\_label.scss" />
+    <Content Include="Content\SCSS\mixins\_list-group.scss" />
+    <Content Include="Content\SCSS\mixins\_lists.scss" />
+    <Content Include="Content\SCSS\mixins\_nav-divider.scss" />
+    <Content Include="Content\SCSS\mixins\_navbar-align.scss" />
+    <Content Include="Content\SCSS\mixins\_pagination.scss" />
+    <Content Include="Content\SCSS\mixins\_progress.scss" />
+    <Content Include="Content\SCSS\mixins\_pulls.scss" />
+    <Content Include="Content\SCSS\mixins\_reset-filter.scss" />
+    <Content Include="Content\SCSS\mixins\_reset-text.scss" />
+    <Content Include="Content\SCSS\mixins\_resize.scss" />
+    <Content Include="Content\SCSS\mixins\_screen-reader.scss" />
+    <Content Include="Content\SCSS\mixins\_size.scss" />
+    <Content Include="Content\SCSS\mixins\_tab-focus.scss" />
+    <Content Include="Content\SCSS\mixins\_table-row.scss" />
+    <Content Include="Content\SCSS\mixins\_text-emphasis.scss" />
+    <Content Include="Content\SCSS\mixins\_text-hide.scss" />
+    <Content Include="Content\SCSS\mixins\_text-truncate.scss" />
+    <Content Include="Content\SCSS\_alert.scss" />
+    <Content Include="Content\SCSS\_animation.scss" />
+    <Content Include="Content\SCSS\_breadcrumb.scss" />
+    <Content Include="Content\SCSS\_button-group.scss" />
+    <Content Include="Content\SCSS\_buttons.scss" />
+    <Content Include="Content\SCSS\_card.scss" />
+    <Content Include="Content\SCSS\_carousel.scss" />
+    <Content Include="Content\SCSS\_close.scss" />
+    <Content Include="Content\SCSS\_code.scss" />
+    <Content Include="Content\SCSS\_custom-forms.scss" />
+    <Content Include="Content\SCSS\_dropdown.scss" />
+    <Content Include="Content\SCSS\_forms.scss" />
+    <Content Include="Content\SCSS\_grid.scss" />
+    <Content Include="Content\SCSS\_images.scss" />
+    <Content Include="Content\SCSS\_input-group.scss" />
+    <Content Include="Content\SCSS\_jumbotron.scss" />
+    <Content Include="Content\SCSS\_labels.scss" />
+    <Content Include="Content\SCSS\_list-group.scss" />
+    <Content Include="Content\SCSS\_media.scss" />
+    <Content Include="Content\SCSS\_mixins.scss" />
+    <Content Include="Content\SCSS\_modal.scss" />
+    <Content Include="Content\SCSS\_nav.scss" />
+    <Content Include="Content\SCSS\_navbar.scss" />
+    <Content Include="Content\SCSS\_normalize.scss" />
+    <Content Include="Content\SCSS\_pager.scss" />
+    <Content Include="Content\SCSS\_pagination.scss" />
+    <Content Include="Content\SCSS\_popover.scss" />
+    <Content Include="Content\SCSS\_print.scss" />
+    <Content Include="Content\SCSS\_progress.scss" />
+    <Content Include="Content\SCSS\_reboot.scss" />
+    <Content Include="Content\SCSS\_responsive-embed.scss" />
+    <Content Include="Content\SCSS\_tables.scss" />
+    <Content Include="Content\SCSS\_tooltip.scss" />
+    <Content Include="Content\SCSS\_type.scss" />
+    <Content Include="Content\SCSS\_utilities-background.scss" />
+    <Content Include="Content\SCSS\_utilities-responsive.scss" />
+    <Content Include="Content\SCSS\_utilities-spacing.scss" />
+    <Content Include="Content\SCSS\_utilities.scss" />
+    <Content Include="Content\SCSS\_variables.scss" />
     <None Include="My Project\Application.myapp">
       <Generator>MyApplicationCodeGenerator</Generator>
       <LastGenOutput>Application.Designer.vb</LastGenOutput>
@@ -272,14 +349,14 @@
       <CustomToolNamespace>My</CustomToolNamespace>
       <LastGenOutput>Settings.Designer.vb</LastGenOutput>
     </None>
-    <Content Include="Scripts\ai.0.22.9-build00167.js" />
-    <Content Include="Scripts\ai.0.22.9-build00167.min.js" />
-    <None Include="Scripts\jquery-2.2.3.intellisense.js" />
-    <Content Include="Scripts\jquery-2.2.3.js" />
-    <Content Include="Scripts\jquery-2.2.3.min.js" />
-    <None Include="Scripts\jquery.validate-vsdoc.js" />
-    <Content Include="Scripts\jquery.validate.js" />
-    <Content Include="Scripts\jquery.validate.min.js" />
+    <Content Include="Content\Scripts\ai.0.22.9-build00167.js" />
+    <Content Include="Content\Scripts\ai.0.22.9-build00167.min.js" />
+    <None Include="Content\Scripts\jquery-2.2.3.intellisense.js" />
+    <Content Include="Content\Scripts\jquery-2.2.3.js" />
+    <Content Include="Content\Scripts\jquery-2.2.3.min.js" />
+    <None Include="Content\Scripts\jquery.validate-vsdoc.js" />
+    <Content Include="Content\Scripts\jquery.validate.js" />
+    <Content Include="Content\Scripts\jquery.validate.min.js" />
     <Content Include="Views\Account\_ExternalLoginsListPartial.vbhtml" />
     <Content Include="Views\Account\ConfirmEmail.vbhtml" />
     <Content Include="Views\Account\ExternalLoginConfirmation.vbhtml" />
@@ -304,12 +381,12 @@
   <ItemGroup>
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
-    <Content Include="Scripts\jquery-2.2.3.min.map" />
-    <Content Include="Scripts\jquery.validate.unobtrusive.js" />
-    <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
-    <Content Include="Scripts\modernizr-2.6.2.js" />
-    <Content Include="Scripts\respond.js" />
-    <Content Include="Scripts\respond.min.js" />
+    <Content Include="Content\Scripts\jquery-2.2.3.min.map" />
+    <Content Include="Content\Scripts\jquery.validate.unobtrusive.js" />
+    <Content Include="Content\Scripts\jquery.validate.unobtrusive.min.js" />
+    <Content Include="Content\Scripts\modernizr-2.6.2.js" />
+    <Content Include="Content\Scripts\respond.js" />
+    <Content Include="Content\Scripts\respond.min.js" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -317,8 +394,7 @@
     <Content Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </Content>
-    <Content Include="Content\Site.css" />
-    <Content Include="Scripts\_references.js" />
+    <Content Include="Content\Scripts\_references.js" />
     <Content Include="Views\_ViewStart.vbhtml" />
     <Content Include="Views\Home\About.vbhtml" />
     <Content Include="Views\Home\Contact.vbhtml" />
@@ -329,6 +405,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Content\CSS\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
