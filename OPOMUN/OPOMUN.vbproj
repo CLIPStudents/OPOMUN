@@ -263,11 +263,21 @@
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="Content\CSS\bootstrap.css" />
+    <Content Include="Content\CSS\bootstrap.min.css">
+      <DependentUpon>bootstrap.css</DependentUpon>
+    </Content>
     <Content Include="Content\SCSS\.csscomb.json" />
     <Content Include="Content\SCSS\.scss-lint.yml" />
     <Content Include="Content\SCSS\bootstrap-flex.scss" />
     <Content Include="Content\SCSS\bootstrap-grid.scss" />
     <Content Include="Content\SCSS\bootstrap-reboot.scss" />
+    <Content Include="Content\SCSS\bootstrap.css">
+      <DependentUpon>bootstrap.scss</DependentUpon>
+    </Content>
+    <Content Include="Content\SCSS\bootstrap.min.css">
+      <DependentUpon>bootstrap.css</DependentUpon>
+    </Content>
     <Content Include="Content\SCSS\bootstrap.scss" />
     <Content Include="Content\SCSS\mixins\_alert.scss" />
     <Content Include="Content\SCSS\mixins\_background-variant.scss" />
@@ -340,6 +350,10 @@
     <Content Include="Content\SCSS\_utilities-spacing.scss" />
     <Content Include="Content\SCSS\_utilities.scss" />
     <Content Include="Content\SCSS\_variables.scss" />
+    <None Include="compilerconfig.json" />
+    <None Include="compilerconfig.json.defaults">
+      <DependentUpon>compilerconfig.json</DependentUpon>
+    </None>
     <None Include="My Project\Application.myapp">
       <Generator>MyApplicationCodeGenerator</Generator>
       <LastGenOutput>Application.Designer.vb</LastGenOutput>
@@ -405,7 +419,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Content\CSS\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
