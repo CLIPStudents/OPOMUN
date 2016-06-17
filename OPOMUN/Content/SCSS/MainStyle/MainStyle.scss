@@ -1,1 +1,9 @@
-﻿
+﻿.navbar-brand {
+	padding: 0px; /* firefox bug fix */
+
+	img {
+		height: 100%;
+		padding: 10px; /* firefox bug fix */
+		width: auto;
+	}
+}

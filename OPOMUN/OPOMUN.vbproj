@@ -276,6 +276,8 @@
       <DependentUpon>MainStyle.css</DependentUpon>
     </Content>
     <Content Include="Content\Fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Content\Images\OPOMUN Bird.png" />
+    <Content Include="Content\Images\OPOMUN Logo.png" />
     <Content Include="Content\Scripts\Bootstrap3\bootstrap-sprockets.js" />
     <Content Include="Content\Scripts\Bootstrap3\bootstrap.js" />
     <Content Include="Content\Scripts\Bootstrap3\bootstrap.min.js" />
@@ -310,12 +312,6 @@
     <Content Include="Content\SCSS\Bootstrap\bootstrap-flex.scss" />
     <Content Include="Content\SCSS\Bootstrap\bootstrap-grid.scss" />
     <Content Include="Content\SCSS\Bootstrap\bootstrap-reboot.scss" />
-    <Content Include="Content\SCSS\bootstrap.css">
-      <DependentUpon>bootstrap.scss</DependentUpon>
-    </Content>
-    <Content Include="Content\SCSS\bootstrap.min.css">
-      <DependentUpon>bootstrap.css</DependentUpon>
-    </Content>
     <Content Include="Content\SCSS\Bootstrap\bootstrap.scss" />
     <Content Include="Content\SCSS\Bootstrap\mixins\_alert.scss" />
     <Content Include="Content\SCSS\Bootstrap\mixins\_background-variant.scss" />
