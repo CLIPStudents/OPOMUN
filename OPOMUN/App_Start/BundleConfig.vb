@@ -22,7 +22,8 @@ Public Module BundleConfig
 
 		bundles.Add(
 			New StyleBundle("~/Bundles/MainStyle").Include(
-				"~/Content/CSS/Bootstrap3/bootstrap.css"
+				"~/Content/CSS/Bootstrap3/bootstrap.css",
+				"~/Content/CSS/MainStyle/MainStyle.css"
 			)
 		)
 	End Sub

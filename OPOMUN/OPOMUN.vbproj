@@ -271,6 +271,10 @@
     <Content Include="Content\CSS\Bootstrap3\bootstrap-theme.min.css" />
     <Content Include="Content\CSS\Bootstrap3\bootstrap.css" />
     <Content Include="Content\CSS\Bootstrap3\bootstrap.min.css" />
+    <Content Include="Content\CSS\MainStyle\MainStyle.css" />
+    <Content Include="Content\CSS\MainStyle\MainStyle.min.css">
+      <DependentUpon>MainStyle.css</DependentUpon>
+    </Content>
     <Content Include="Content\Fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Content\Scripts\Bootstrap3\bootstrap-sprockets.js" />
     <Content Include="Content\Scripts\Bootstrap3\bootstrap.js" />
@@ -396,6 +400,7 @@
     <Content Include="Content\CSS\Bootstrap3\bootstrap-theme.min.css.map" />
     <Content Include="Content\CSS\Bootstrap3\bootstrap.css.map" />
     <Content Include="Content\CSS\Bootstrap3\bootstrap.min.css.map" />
+    <Content Include="Content\SCSS\MainStyle\MainStyle.scss" />
     <None Include="My Project\Application.myapp">
       <Generator>MyApplicationCodeGenerator</Generator>
       <LastGenOutput>Application.Designer.vb</LastGenOutput>
