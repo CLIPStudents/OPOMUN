@@ -267,6 +267,20 @@
     <Content Include="Content\CSS\bootstrap.min.css">
       <DependentUpon>bootstrap.css</DependentUpon>
     </Content>
+    <Content Include="Content\Scripts\Bootstrap\bootstrap.js" />
+    <Content Include="Content\Scripts\Bootstrap\bootstrap.min.js" />
+    <Content Include="Content\Scripts\Bootstrap\npm.js" />
+    <Content Include="Content\Scripts\Bootstrap\umd\alert.js" />
+    <Content Include="Content\Scripts\Bootstrap\umd\button.js" />
+    <Content Include="Content\Scripts\Bootstrap\umd\carousel.js" />
+    <Content Include="Content\Scripts\Bootstrap\umd\collapse.js" />
+    <Content Include="Content\Scripts\Bootstrap\umd\dropdown.js" />
+    <Content Include="Content\Scripts\Bootstrap\umd\modal.js" />
+    <Content Include="Content\Scripts\Bootstrap\umd\popover.js" />
+    <Content Include="Content\Scripts\Bootstrap\umd\scrollspy.js" />
+    <Content Include="Content\Scripts\Bootstrap\umd\tab.js" />
+    <Content Include="Content\Scripts\Bootstrap\umd\tooltip.js" />
+    <Content Include="Content\Scripts\Bootstrap\umd\util.js" />
     <Content Include="Content\SCSS\.csscomb.json" />
     <Content Include="Content\SCSS\.scss-lint.yml" />
     <Content Include="Content\SCSS\bootstrap-flex.scss" />
