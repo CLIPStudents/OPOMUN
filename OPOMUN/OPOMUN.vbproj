@@ -267,7 +267,26 @@
     <Content Include="Content\CSS\bootstrap.min.css">
       <DependentUpon>bootstrap.css</DependentUpon>
     </Content>
+    <Content Include="Content\CSS\Bootstrap3\bootstrap-theme.css" />
+    <Content Include="Content\CSS\Bootstrap3\bootstrap-theme.min.css" />
+    <Content Include="Content\CSS\Bootstrap3\bootstrap.css" />
+    <Content Include="Content\CSS\Bootstrap3\bootstrap.min.css" />
     <Content Include="Content\Fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Content\Scripts\Bootstrap3\bootstrap-sprockets.js" />
+    <Content Include="Content\Scripts\Bootstrap3\bootstrap.js" />
+    <Content Include="Content\Scripts\Bootstrap3\bootstrap.min.js" />
+    <Content Include="Content\Scripts\Bootstrap3\bootstrap\affix.js" />
+    <Content Include="Content\Scripts\Bootstrap3\bootstrap\alert.js" />
+    <Content Include="Content\Scripts\Bootstrap3\bootstrap\button.js" />
+    <Content Include="Content\Scripts\Bootstrap3\bootstrap\carousel.js" />
+    <Content Include="Content\Scripts\Bootstrap3\bootstrap\collapse.js" />
+    <Content Include="Content\Scripts\Bootstrap3\bootstrap\dropdown.js" />
+    <Content Include="Content\Scripts\Bootstrap3\bootstrap\modal.js" />
+    <Content Include="Content\Scripts\Bootstrap3\bootstrap\popover.js" />
+    <Content Include="Content\Scripts\Bootstrap3\bootstrap\scrollspy.js" />
+    <Content Include="Content\Scripts\Bootstrap3\bootstrap\tab.js" />
+    <Content Include="Content\Scripts\Bootstrap3\bootstrap\tooltip.js" />
+    <Content Include="Content\Scripts\Bootstrap3\bootstrap\transition.js" />
     <Content Include="Content\Scripts\Bootstrap\bootstrap.js" />
     <Content Include="Content\Scripts\Bootstrap\bootstrap.min.js" />
     <Content Include="Content\Scripts\Bootstrap\npm.js" />
@@ -373,6 +392,10 @@
     <Content Include="Content\Fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="Content\Fonts\glyphicons-halflings-regular.woff" />
     <Content Include="Content\Fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="Content\CSS\Bootstrap3\bootstrap-theme.css.map" />
+    <Content Include="Content\CSS\Bootstrap3\bootstrap-theme.min.css.map" />
+    <Content Include="Content\CSS\Bootstrap3\bootstrap.css.map" />
+    <Content Include="Content\CSS\Bootstrap3\bootstrap.min.css.map" />
     <None Include="My Project\Application.myapp">
       <Generator>MyApplicationCodeGenerator</Generator>
       <LastGenOutput>Application.Designer.vb</LastGenOutput>

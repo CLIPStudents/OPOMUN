@@ -16,13 +16,13 @@ Public Module BundleConfig
 
 		bundles.Add(
 			New ScriptBundle("~/Bundles/MainScript").Include(
-				"~/Content/Scripts/Bootstrap/bootstrap.js"
+				"~/Content/Scripts/Bootstrap3/bootstrap.js"
 			)
 		)
 
 		bundles.Add(
 			New StyleBundle("~/Bundles/MainStyle").Include(
-				"~/Content/CSS/bootstrap.css"
+				"~/Content/CSS/Bootstrap3/bootstrap.css"
 			)
 		)
 	End Sub
