@@ -308,6 +308,7 @@
     <Content Include="Content\Scripts\Bootstrap\umd\tab.js" />
     <Content Include="Content\Scripts\Bootstrap\umd\tooltip.js" />
     <Content Include="Content\Scripts\Bootstrap\umd\util.js" />
+    <Content Include="Content\Scripts\CurrentSelector.js" />
     <Content Include="Content\SCSS\Bootstrap\.csscomb.json" />
     <Content Include="Content\SCSS\Bootstrap\.scss-lint.yml" />
     <Content Include="Content\SCSS\Bootstrap\bootstrap-flex.scss" />
