@@ -249,6 +249,7 @@
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
     <Compile Include="Controllers\HomeController.vb" />
+    <Compile Include="Settings.vb" />
     <Compile Include="Startup.vb" />
   </ItemGroup>
   <ItemGroup>
