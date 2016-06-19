@@ -277,8 +277,15 @@
       <DependentUpon>MainStyle.css</DependentUpon>
     </Content>
     <Content Include="Content\Fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Content\Images\Background Vector.svg" />
+    <Content Include="Content\Images\Header Background Gradient.png" />
+    <Content Include="Content\Images\Header Background.jpg" />
+    <Content Include="Content\Images\OPOMUN Bird Outline.png" />
+    <Content Include="Content\Images\OPOMUN Bird Outline.svg" />
     <Content Include="Content\Images\OPOMUN Bird.png" />
+    <Content Include="Content\Images\OPOMUN Bird.svg" />
     <Content Include="Content\Images\OPOMUN Logo.png" />
+    <Content Include="Content\Images\OPOMUN Logo.svg" />
     <Content Include="Content\Scripts\Bootstrap3\bootstrap-sprockets.js" />
     <Content Include="Content\Scripts\Bootstrap3\bootstrap.js" />
     <Content Include="Content\Scripts\Bootstrap3\bootstrap.min.js" />

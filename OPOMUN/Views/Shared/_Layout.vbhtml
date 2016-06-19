@@ -5,6 +5,10 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<meta http-equiv="x-ua-compatible" content="ie=edge">
 
+	<link href="https://fonts.googleapis.com/css?family=Merriweather:400,400italic,700,700italic" rel="stylesheet" type="text/css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700,600" rel="stylesheet" type="text/css">
+	<link href="https://fonts.googleapis.com/css?family=Raleway:400,800" rel="stylesheet" type="text/css">
+
 	<title>OPOMUN @ViewBag.Title</title>
 	@Styles.Render("~/Bundles/MainStyle")
 	@Scripts.Render("~/Bundles/jQuery")
@@ -18,7 +22,7 @@
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				</button>
-				<a class="navbar-brand" href="@Url.Action("Index", "Home")"><img class="img-responsive" src="~/Content/Images/OPOMUN Logo.png"/></a>
+				@*<a class="navbar-brand" href="@Url.Action("Index", "Home")"><img class="img-responsive" src="~/Content/Images/OPOMUN Logo.png"/></a>*@
 			</div>
 			<div class="navbar-collapse collapse">
 				<ul class="nav navbar-nav">
@@ -27,17 +31,19 @@
 					<li>@Html.ActionLink("Contact", "Contact", "Home")</li>
 				</ul>
 				<ul class="nav navbar-nav navbar-right">
-					@Html.Partial("_LoginPartial")
+					@*Html.Partial("_LoginPartial")*@
 				</ul>
 			</div>
 		</div>
 	</nav>
-	<div class="container body-content">
+	<div class="body-content">
 		@RenderBody()
-		<hr />
-		<footer>
-			<p>&copy; @DateTime.Now.Year - Oporto Model United Nations</p>
-		</footer>
+		<div class="container">
+			<hr />
+			<footer>
+				<p>&copy; @DateTime.Now.Year - Oporto Model United Nations</p>
+			</footer>
+		</div>
 	</div>
 
 	@Scripts.Render("~/Bundles/MainScript")
