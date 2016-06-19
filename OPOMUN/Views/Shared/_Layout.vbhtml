@@ -17,7 +17,7 @@
 	<nav class="navbar navbar-default navbar-fixed-top">
 		<div class="container">
 			<div class="navbar-header">
-				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+				<button type="button" class="navbar-toggle" clickBehavior="default" data-toggle="collapse" data-target=".navbar-collapse">
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
@@ -27,7 +27,16 @@
 			<div class="navbar-collapse collapse">
 				<ul class="nav navbar-nav">
 					<li>@Html.ActionLink("Home", "Index", "Home")</li>
-					<li>@Html.ActionLink("About", "About", "Home")</li>
+					<li class="dropdown">
+						<a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true">
+							<span>About</span>
+						</a>
+
+						<ul Class="dropdown-menu">
+							<li><a href="#">Settings</a></li>
+							<li><a href="#">Log off</a></li>
+						</ul>
+					</li>
 					<li>@Html.ActionLink("Contact", "Contact", "Home")</li>
 				</ul>
 				<ul class="nav navbar-nav navbar-right">

@@ -45,6 +45,19 @@
       background-color: white; }
   .navbar-default .navbar-collapse {
     border-color: rgba(63, 169, 245, 0.9) !important; }
+  .navbar-default .open > a {
+    color: #fe2b75 !important;
+    background-color: transparent !important; }
+  .navbar-default .dropdown-menu {
+    margin-top: 10px !important;
+    background-color: #3fa9f5;
+    border-color: rgba(63, 169, 245, 0.9) !important;
+    border-radius: 0; }
+    .navbar-default .dropdown-menu > li > a {
+      color: white; }
+      .navbar-default .dropdown-menu > li > a:hover {
+        color: #fe2b75 !important;
+        background-color: transparent; }
 
 .navbar-brand {
   padding: 0px;

@@ -66,6 +66,27 @@ body {
 	.navbar-collapse {
 		border-color: rgba($Color-Primary, 0.9) !important;
 	}
+
+	.open > a {
+		color: $Color-Secondary !important;
+		background-color: transparent !important;
+	}
+
+	.dropdown-menu {
+		margin-top: 10px !important;
+		background-color: $Color-Primary;
+		border-color: rgba($Color-Primary, 0.9) !important;
+		border-radius: 0;
+		
+		& > li > a {
+			color: white;
+
+			&:hover {
+				color: $Color-Secondary !important;
+				background-color: transparent;
+			}
+		}
+	}
 }
 
 .navbar-brand {
