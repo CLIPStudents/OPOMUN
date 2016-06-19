@@ -17,8 +17,7 @@ Public Module BundleConfig
 		bundles.Add(
 			New ScriptBundle("~/Bundles/MainScript").Include(
 				"~/Content/Scripts/Bootstrap3/bootstrap.js",
-				"~/Content/Scripts/CurrentSelector.js",
-				"~/Content/Scripts/jquery.bootstrap-dropdown-hover"
+				"~/Content/Scripts/CurrentSelector.js"
 			)
 		)
 
