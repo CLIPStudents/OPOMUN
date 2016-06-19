@@ -11,8 +11,8 @@ End Code
 			February 23 through 25 / Porto
 		</div>
 		<div class="button-row">
-			<a class="btn btn-lg">Schedule</a>
-			<a class="btn btn-lg">Register</a>
+			<a class="btn btn-lg" href="#">Schedule</a>
+			<a class="btn btn-lg" href="http://goo.gl/forms/1HI8VgMOhwK74ck23">Register</a>
 		</div>
 	</div>
 </div>
