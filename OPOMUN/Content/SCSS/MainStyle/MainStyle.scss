@@ -16,7 +16,7 @@ body {
 
 	&:after {
 		content: "";
-		background-image: url("../../Images/Background Vector.svg");
+		background-image: url("/Content/Images/Background Vector.svg");
 		opacity: 0.06;
 		top: 0;
 		left: 0;
@@ -101,7 +101,7 @@ body {
 
 .opening-header {
 	color: white;
-	background: url("../../Images/Header Background Gradient.png");
+	background: url("/Content/Images/Header Background Gradient.png");
 	background-position: center;
 
 	padding-top: 20px;
