@@ -140,7 +140,8 @@ body {
 
 		& > a {
 			color: white;
-			background-color: rgb(254, 43, 117);
+			background-color: $Color-Secondary;
+			transition: background-color 250ms linear;
 			width: 15%;
 			height: 46%;
 
@@ -152,6 +153,11 @@ body {
 			font-size: 20.8px;
 			font-style: italic;
 			margin-top: 20px;
+
+			&:hover {
+				background: $Color-Primary;
+				transition: background-color 250ms linear;
+			}
 		}
 	}
 }
