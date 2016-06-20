@@ -13,23 +13,24 @@ body {
 	background: #fff;
 	position: relative;
 	width: 100% !important;
-
-	&:after {
-		content: "";
-		background-image: url("/Content/Images/Background Vector.svg");
-		opacity: 0.06;
-		top: 0;
-		left: 0;
-		bottom: 0;
-		right: 0;
-		position: absolute;
-		z-index: -1;
-	}
 }
 
-.navbar-default {
+.vectory-body body:after {
+	content: "";
+	background-image: url("/Content/Images/Background Vector.svg");
+	opacity: 0.06;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	position: absolute;
+	z-index: -1;
+}
+
+.navbar-opomun {
 	background-color: rgba($Color-Primary, 0.9);
 	border-bottom-color: rgba($Color-Primary, 0.9);
+
 	min-height: 72px;
 
 	.container {
@@ -90,18 +91,18 @@ body {
 }
 
 .navbar-brand {
-	padding: 0px; /* firefox bug fix */
+	padding: 0px;
 
 	img {
 		height: 100%;
-		padding: 10px; /* firefox bug fix */
+		padding: 10px;
 		width: auto;
 	}
 }
 
-.opening-header {
+.opomun-header {
 	color: white;
-	background: url("/Content/Images/Header Background Gradient.png");
+	background: url("/Content/Images/Header Background Gradient.jpg");
 	background-position: center;
 
 	padding-top: 20px;

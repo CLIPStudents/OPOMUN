@@ -8,87 +8,86 @@
   background: #fff;
   position: relative;
   width: 100% !important; }
-  body:after {
-    content: "";
-    background-image: url("/Content/Images/Background Vector.svg");
-    opacity: 0.06;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    position: absolute;
-    z-index: -1; }
 
-.navbar-default {
+.vectory-body body:after {
+  content: "";
+  background-image: url("/Content/Images/Background Vector.svg");
+  opacity: 0.06;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1; }
+
+.navbar-opomun {
   background-color: rgba(63, 169, 245, 0.9);
   border-bottom-color: rgba(63, 169, 245, 0.9);
   min-height: 72px; }
   @media (min-width: 768px) {
-    .navbar-default .container {
+    .navbar-opomun .container {
       position: absolute;
       top: 50%;
       left: 50%;
       transform: translate(-50%, -50%); } }
-  .navbar-default .navbar-nav > li > a {
+  .navbar-opomun .navbar-nav > li > a {
     color: white;
     text-transform: uppercase;
     font-size: 16px; }
-    .navbar-default .navbar-nav > li > a.current, .navbar-default .navbar-nav > li > a:hover {
+    .navbar-opomun .navbar-nav > li > a.current, .navbar-opomun .navbar-nav > li > a:hover {
       color: #fe2b75;
       background-color: transparent; }
-  .navbar-default .navbar-toggle, .navbar-default .navbar-toggle:focus {
+  .navbar-opomun .navbar-toggle, .navbar-opomun .navbar-toggle:focus {
     border: 0;
     border-radius: 0;
     color: white;
     background-color: transparent; }
-    .navbar-default .navbar-toggle .icon-bar, .navbar-default .navbar-toggle:focus .icon-bar {
+    .navbar-opomun .navbar-toggle .icon-bar, .navbar-opomun .navbar-toggle:focus .icon-bar {
       background-color: white; }
-  .navbar-default .navbar-collapse {
+  .navbar-opomun .navbar-collapse {
     border-color: rgba(63, 169, 245, 0.9) !important; }
-  .navbar-default .open > a {
+  .navbar-opomun .open > a {
     color: #fe2b75 !important;
     background-color: transparent !important; }
-  .navbar-default .dropdown-menu {
+  .navbar-opomun .dropdown-menu {
     margin-top: 10px !important;
     background-color: #3fa9f5;
     border-color: rgba(63, 169, 245, 0.9) !important;
     border-radius: 0; }
-    .navbar-default .dropdown-menu > li > a {
+    .navbar-opomun .dropdown-menu > li > a {
       color: white; }
-      .navbar-default .dropdown-menu > li > a:hover {
+      .navbar-opomun .dropdown-menu > li > a:hover {
         color: #fe2b75 !important;
         background-color: transparent; }
 
 .navbar-brand {
-  padding: 0px;
-  /* firefox bug fix */ }
+  padding: 0px; }
   .navbar-brand img {
     height: 100%;
     padding: 10px;
-    /* firefox bug fix */
     width: auto; }
 
-.opening-header {
+.opomun-header {
   color: white;
-  background: url("/Content/Images/Header Background Gradient.png");
+  background: url("/Content/Images/Header Background Gradient.jpg");
   background-position: center;
   padding-top: 20px;
   padding-bottom: 20px; }
-  .opening-header img {
+  .opomun-header img {
     width: 12%;
     margin-top: 60px; }
-  .opening-header h1 {
+  .opomun-header h1 {
     font-size: 70px;
     font-weight: 800;
     margin-top: 10px;
     letter-spacing: 6px; }
-  .opening-header h2 {
+  .opomun-header h2 {
     font-size: 34.8px;
     font-weight: 400;
     margin-top: -20px;
     letter-spacing: 10.44px;
     text-transform: uppercase; }
-  .opening-header .timestamp {
+  .opomun-header .timestamp {
     box-sizing: border-box;
     border-top-width: 2px;
     border-bottom-width: 2px;
@@ -105,10 +104,10 @@
     font-style: italic;
     font-family: "Merriweather","Times New Roman",serif;
     letter-spacing: 0.16px; }
-  .opening-header .button-row {
+  .opomun-header .button-row {
     height: 110px;
     margin-top: 10px; }
-    .opening-header .button-row > a {
+    .opomun-header .button-row > a {
       color: white;
       background-color: #fe2b75;
       transition: background-color 250ms linear;
@@ -121,7 +120,7 @@
       font-size: 20.8px;
       font-style: italic;
       margin-top: 20px; }
-      .opening-header .button-row > a:hover {
+      .opomun-header .button-row > a:hover {
         background: #3fa9f5;
         transition: background-color 250ms linear; }
 

@@ -2,7 +2,7 @@
     ViewData("Title") = "Home Page"
 End Code
 
-<div class="opening-header">
+<div class="opomun-header">
 	<div class="text-center">
 		<img src="~/Content/Images/OPOMUN Logo.svg"/>
 		<h1>OPOMUN</h1>

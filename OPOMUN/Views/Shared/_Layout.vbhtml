@@ -14,7 +14,7 @@
 	@Scripts.Render("~/Bundles/jQuery")
 </head>
 <body>
-	<nav class="navbar navbar-default navbar-fixed-top">
+	<nav class="navbar navbar-default navbar-fixed-top navbar-opomun">
 		<div class="container">
 			<div class="navbar-header">
 				<button type="button" class="navbar-toggle" clickBehavior="default" data-toggle="collapse" data-target=".navbar-collapse">
@@ -50,7 +50,7 @@
 		<div class="container">
 			<hr />
 			<footer>
-				<p>&copy; @DateTime.Now.Year - Oporto Model United Nations</p>
+				<small>&copy; @DateTime.Now.Year - Oporto Model United Nations</small>
 			</footer>
 		</div>
 	</div>

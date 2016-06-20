@@ -285,6 +285,7 @@
     </Content>
     <Content Include="Content\Fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Content\Images\Background Vector.svg" />
+    <Content Include="Content\Images\Header Background Gradient.jpg" />
     <Content Include="Content\Images\Header Background Gradient.png" />
     <Content Include="Content\Images\Header Background.jpg" />
     <Content Include="Content\Images\OPOMUN Bird Outline.png" />
