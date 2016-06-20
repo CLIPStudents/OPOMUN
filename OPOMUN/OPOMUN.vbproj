@@ -457,7 +457,6 @@
     <Content Include="Views\About\Venue.vbhtml" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="Content\Scripts\jquery-2.2.3.min.map" />
     <Content Include="Content\Scripts\jquery.validate.unobtrusive.js" />
@@ -485,7 +484,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
-    <None Include="Project_Readme.html" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
