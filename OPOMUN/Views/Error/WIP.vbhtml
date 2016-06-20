@@ -18,7 +18,7 @@ End Code
 	@Styles.Render("~/Bundles/MainStyle")
 	@Scripts.Render("~/Bundles/jQuery")
 </head>
-<body>
+<body class="vectory-body">
 	<style>
 		html, body { 
 			margin: 0 !important; 

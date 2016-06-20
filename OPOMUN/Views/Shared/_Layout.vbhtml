@@ -13,7 +13,7 @@
 	@Styles.Render("~/Bundles/MainStyle")
 	@Scripts.Render("~/Bundles/jQuery")
 </head>
-<body>
+<body class="vectory-body">
 	<nav class="navbar navbar-default navbar-fixed-top navbar-opomun">
 		<div class="container">
 			<div class="navbar-header">
@@ -33,11 +33,12 @@
 						</a>
 
 						<ul Class="dropdown-menu">
-							<li><a href="#">Settings</a></li>
-							<li><a href="#">Log off</a></li>
+							<li>@Html.ActionLink("Venue", "Venue", "About")</li>
+							<li>@Html.ActionLink("Agenda", "WIP", "Error")</li>
+							<li>@Html.ActionLink("Parliamentary Procedure", "WIP", "Error")</li>
 						</ul>
 					</li>
-					<li>@Html.ActionLink("Contact", "Contact", "Home")</li>
+					<li>@Html.ActionLink("Contact", "Contact", "About")</li>
 				</ul>
 				<ul class="nav navbar-nav navbar-right">
 					@*Html.Partial("_LoginPartial")*@

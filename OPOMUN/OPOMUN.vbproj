@@ -454,6 +454,7 @@
     <Content Include="Views\Shared\_LoginPartial.vbhtml" />
     <Content Include="Views\About\Team.vbhtml" />
     <Content Include="Views\Error\WIP.vbhtml" />
+    <Content Include="Views\About\Venue.vbhtml" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="favicon.ico" />
@@ -473,8 +474,7 @@
     </Content>
     <Content Include="Content\Scripts\_references.js" />
     <Content Include="Views\_ViewStart.vbhtml" />
-    <Content Include="Views\Home\About.vbhtml" />
-    <Content Include="Views\Home\Contact.vbhtml" />
+    <Content Include="Views\About\Contact.vbhtml" />
     <Content Include="Views\Home\Index.vbhtml" />
     <Content Include="Views\Shared\Error.vbhtml" />
     <Content Include="Views\Shared\_Layout.vbhtml" />

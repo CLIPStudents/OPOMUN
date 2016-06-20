@@ -15,7 +15,7 @@ body {
 	width: 100% !important;
 }
 
-.vectory-body body:after {
+.vectory-body:after {
 	content: "";
 	background-image: url("/Content/Images/Background Vector.svg");
 	opacity: 0.06;
