@@ -432,6 +432,7 @@
     <None Include="Content\Scripts\jquery.validate-vsdoc.js" />
     <Content Include="Content\Scripts\jquery.validate.js" />
     <Content Include="Content\Scripts\jquery.validate.min.js" />
+    <Content Include="favicon.png" />
     <Content Include="Views\Account\_ExternalLoginsListPartial.vbhtml" />
     <Content Include="Views\Account\ConfirmEmail.vbhtml" />
     <Content Include="Views\Account\ExternalLoginConfirmation.vbhtml" />
