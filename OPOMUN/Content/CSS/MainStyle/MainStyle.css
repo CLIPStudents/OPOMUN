@@ -1,5 +1,26 @@
 ﻿body {
   font-family: "Raleway", "Open Sans", serif !important;
+  letter-spacing: .01em;
+  font-size: 16px;
+  background: #FFF;
+  width: 100% !important;
+  margin: 0;
+  padding-top: 70px;
+  position: relative; }
+
+.body-vector:after {
+  background-image: url("/Content/Images/Background Vector.svg");
+  content: "";
+  opacity: 0.06;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: absolute;
+  z-index: -1; }
+
+body {
+  font-family: "Raleway", "Open Sans", serif !important;
   padding-top: 70px;
   font-size: 16px;
   color: #464646;

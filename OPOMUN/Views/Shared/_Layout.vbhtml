@@ -13,7 +13,7 @@
 	@Styles.Render("~/Bundles/MainStyle")
 	@Scripts.Render("~/Bundles/jQuery")
 </head>
-<body class="vectory-body">
+<body class="body-vector">
 	<nav class="navbar navbar-default navbar-fixed-top navbar-opomun">
 		<div class="container">
 			<div class="navbar-header">
