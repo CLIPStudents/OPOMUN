@@ -12,6 +12,7 @@
 	<title>OPOMUN @ViewBag.Title</title>
 	@Styles.Render("~/Bundles/MainStyle")
 	@Scripts.Render("~/Bundles/jQuery")
+	@Scripts.Render("~/Content/Scripts/AppInsights.js")
 </head>
 <body class="body-vector">
 	<nav class="navbar navbar-default navbar-fixed-top navbar-opomun">
