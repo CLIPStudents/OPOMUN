@@ -11,9 +11,15 @@ Public Module RouteConfig
 		routes.LowercaseUrls = True
 
 		routes.MapRoute(
-			name:="Default",
+			name:="Landing Default",
 			url:="{controller}/{action}/{id}",
 			defaults:=New With {.controller = "home", .action = "landing", .id = UrlParameter.Optional}
+		)
+
+		routes.MapRoute(
+			name:="Index Fallback",
+			url:="{controller}/{action}/{id}",
+			defaults:=New With {.controller = "home", .action = "index", .id = UrlParameter.Optional}
 		)
 	End Sub
 End Module
