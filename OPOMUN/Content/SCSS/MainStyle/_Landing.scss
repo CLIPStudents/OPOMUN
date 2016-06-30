@@ -36,6 +36,8 @@
 		left: 0;
 		right: 0;
 
+		text-align: center;
+
 		img {
 			height: 17.5%;
 			height: 17.5vh;
@@ -48,6 +50,9 @@
 			margin-top: 10px;
 			
 			letter-spacing: 4px;
+
+			margin-left: 10px;
+			margin-right: 10px;
 		}
 
 		h2 {
@@ -58,6 +63,9 @@
 			letter-spacing:	1px;
 //			letter-spacing: 10.44px;
 			text-transform: uppercase;
+
+			margin-left: 10px;
+			margin-right: 10px;
 		}
 
 		.timestamp {

@@ -115,7 +115,8 @@ h1 {
     justify-content: center;
     position: absolute;
     left: 0;
-    right: 0; }
+    right: 0;
+    text-align: center; }
     .body-landing header img {
       height: 17.5%;
       height: 17.5vh;
@@ -124,13 +125,17 @@ h1 {
       font-size: 70px;
       font-weight: 800;
       margin-top: 10px;
-      letter-spacing: 4px; }
+      letter-spacing: 4px;
+      margin-left: 10px;
+      margin-right: 10px; }
     .body-landing header h2 {
       font-size: 34.8px;
       font-weight: 400;
       margin-top: -20px;
       letter-spacing: 1px;
-      text-transform: uppercase; }
+      text-transform: uppercase;
+      margin-left: 10px;
+      margin-right: 10px; }
     .body-landing header .timestamp {
       border-top-width: 2px;
       border-bottom-width: 2px;
