@@ -1,5 +1,5 @@
 ﻿@Code
-	ViewData("Title") = "Venue"
+	ViewData("Title") = "About"
 	ViewData("BodyType") = "vector"
 End Code
 
