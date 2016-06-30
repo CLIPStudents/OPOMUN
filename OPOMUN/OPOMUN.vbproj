@@ -460,6 +460,7 @@
     <Content Include="Views\About\Team.vbhtml" />
     <Content Include="Views\Error\WIP.vbhtml" />
     <Content Include="Views\About\Venue.vbhtml" />
+    <Content Include="Views\Home\About.vbhtml" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Global.asax" />
