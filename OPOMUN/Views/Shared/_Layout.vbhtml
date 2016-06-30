@@ -6,15 +6,13 @@
 	<meta http-equiv="x-ua-compatible" content="ie=edge">
 
 	<link href="https://fonts.googleapis.com/css?family=Merriweather:400,400italic,700,700italic" rel="stylesheet" type="text/css">
-	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700,600" rel="stylesheet" type="text/css">
-	<link href="https://fonts.googleapis.com/css?family=Raleway:400,800" rel="stylesheet" type="text/css">
 
 	<title>OPOMUN @ViewBag.Title</title>
 	@Styles.Render("~/Bundles/MainStyle")
 	@Scripts.Render("~/Bundles/jQuery")
 	@Scripts.Render("~/Content/Scripts/AppInsights.js")
 </head>
-<body class="body-vector">
+<body class="@String.Concat("body-", ViewBag.BodyType)">
 	<nav class="navbar navbar-default navbar-fixed-top navbar-opomun">
 		<div class="container">
 			<div class="navbar-header">
@@ -28,17 +26,7 @@
 			<div class="navbar-collapse collapse">
 				<ul class="nav navbar-nav">
 					<li>@Html.ActionLink("Home", "Index", "Home")</li>
-					<li class="dropdown">
-						<a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true">
-							<span>About</span>
-						</a>
-
-						<ul Class="dropdown-menu">
-							<li>@Html.ActionLink("Venue", "Venue", "About")</li>
-							<li>@Html.ActionLink("Agenda", "WIP", "Error")</li>
-							<li>@Html.ActionLink("Parliamentary Procedure", "WIP", "Error")</li>
-						</ul>
-					</li>
+					<li>@Html.ActionLink("About", "About", "Home")</li>
 					<li>@Html.ActionLink("Contact", "Contact", "About")</li>
 				</ul>
 				<ul class="nav navbar-nav navbar-right">
@@ -49,10 +37,10 @@
 	</nav>
 	<div class="body-content">
 		@RenderBody()
-		<div class="container">
+		<div class="container footer">
 			<hr />
 			<footer>
-				<small>&copy; @DateTime.Now.Year - Oporto Model United Nations</small>
+				<small>Made by <a href="http://devsparkle.me">Ricardo Loureiro</a>. &copy; @DateTime.Now.Year - OPOMUN</small>
 			</footer>
 		</div>
 	</div>

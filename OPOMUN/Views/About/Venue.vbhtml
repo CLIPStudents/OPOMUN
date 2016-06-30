@@ -1,5 +1,6 @@
 ﻿@Code
-    ViewData("Title") = "Venue"
+	ViewData("Title") = "Venue"
+	ViewData("BodyType") = "vector"
 End Code
 
 <div class="section-container">

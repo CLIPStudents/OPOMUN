@@ -1,0 +1,122 @@
+﻿.body-landing {
+	background: url("/Content/Images/Header Background Gradient.jpg");
+	background-position: center;
+	
+	.navbar-opomun {
+		background-color: transparent;
+		border-color: transparent;
+
+		font-size: 34.8px;
+		font-weight: 800;
+		
+		text-transform: uppercase;
+		
+		& > li > a {
+			color: white;
+
+			&:hover {
+				color: $Color-Secondary !important;
+				background-color: transparent;
+			}
+		}
+	}
+
+
+	header {
+		color: white;
+
+		min-height: 100%;
+		min-height: 100vh;
+
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		position: absolute;
+
+		left: 0;
+		right: 0;
+
+		img {
+			height: 17.5%;
+			height: 17.5vh;
+			margin-top:60px;
+		}
+
+		h1 {
+			font-size: 70px;
+			font-weight: 800;
+			margin-top: 10px;
+			
+			letter-spacing: 4px;
+		}
+
+		h2 {
+			font-size: 34.8px;
+			font-weight: 400;
+			margin-top: -20px;
+			
+			letter-spacing:	1px;
+//			letter-spacing: 10.44px;
+			text-transform: uppercase;
+		}
+
+		.timestamp {
+			border-top-width: 2px;
+			border-bottom-width: 2px;
+
+			border-top-style: solid;
+			border-bottom-style: solid;
+
+			border-top-color: rgba(255, 255, 255, 0.36);
+			border-bottom-color: rgba(255, 255, 255, 0.36);
+
+			width: 28%;
+			width: 28vw;
+			margin-top: 36px;
+
+			padding-top: 20px;
+			padding-bottom: 20px;
+
+			font-size: 32px;
+			font-size: 1.65vw;
+			font-weight: 400;
+			font-style: italic;
+			font-family: "Merriweather","Times New Roman",serif;
+
+			letter-spacing: 0.16px;
+		}
+
+		.button-row {
+			height: 110px;
+			margin-top: 10px;
+
+			& > a {
+				color: white;
+				background-color: $Color-Secondary;
+				transition: background-color 250ms linear;
+
+				width: 15%;
+				width: 15vw;
+				height: 46%;
+
+				margin: 10px;
+				border: 0;
+				border-radius: 0;
+
+				font-family: "Merriweather", "Times New Roman", serif;
+				font-size: 20.8px;
+				font-style: italic;
+				margin-top: 20px;
+
+				&:hover {
+					background: $Color-Primary;
+					transition: background-color 250ms linear;
+				}
+			}
+		}
+	}
+
+	.footer {
+		visibility: hidden;
+	}
+}
