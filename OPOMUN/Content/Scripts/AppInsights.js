@@ -21,7 +21,7 @@
 		return s !== !0 && t["_" + i](config, r, u, e, o), s
 	}), t
 }({
-	instrumentationKey: "4883a183-51bf-4caf-91e4-481651cc041a"
+	instrumentationKey: "fb767013-4649-4f43-9140-4812cee8e46b"
 });
 
 window.appInsights = appInsights;

@@ -28,7 +28,7 @@
     <UseGlobalApplicationHostFile />
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
-    <ApplicationInsightsResourceId>/subscriptions/cb0fec2a-1870-4c51-a1f5-aa5046e05a94/resourcegroups/OPOMUN/providers/microsoft.insights/components/opomun</ApplicationInsightsResourceId>
+    <ApplicationInsightsResourceId>/subscriptions/cb0fec2a-1870-4c51-a1f5-aa5046e05a94/resourcegroups/OPOMUN/providers/microsoft.insights/components/OPOMUN</ApplicationInsightsResourceId>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
