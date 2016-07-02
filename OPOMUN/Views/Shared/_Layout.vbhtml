@@ -5,9 +5,9 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<meta http-equiv="x-ua-compatible" content="ie=edge">
 
-	<link href="https://fonts.googleapis.com/css?family=Merriweather:400,400italic,700,700italic" rel="stylesheet" type="text/css">
-
 	<title>OPOMUN @ViewBag.Title</title>
+	<link rel="shortcut icon" href="/favicon.png" />
+
 	@Styles.Render("~/Bundles/MainStyle")
 	@Scripts.Render("~/Bundles/jQuery")
 	@Scripts.Render("~/Content/Scripts/AppInsights.js")
@@ -27,7 +27,7 @@
 				<ul class="nav navbar-nav">
 					<li>@Html.ActionLink("Home", "Index", "Home")</li>
 					<li>@Html.ActionLink("About", "About", "Home")</li>
-					<li>@Html.ActionLink("Contact", "Contact", "About")</li>
+					<li>@Html.ActionLink("Contact", "Contact", "Home")</li>
 				</ul>
 				<ul class="nav navbar-nav navbar-right">
 					@*Html.Partial("_LoginPartial")*@

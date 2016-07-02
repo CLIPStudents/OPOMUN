@@ -230,7 +230,6 @@
     <Compile Include="App_Start\IdentityConfig.vb" />
     <Compile Include="App_Start\RouteConfig.vb" />
     <Compile Include="App_Start\Startup.Auth.vb" />
-    <Compile Include="Controllers\AboutController.vb" />
     <Compile Include="Controllers\AccountController.vb" />
     <Compile Include="Controllers\ErrorController.vb" />
     <Compile Include="Controllers\ManageController.vb" />
@@ -435,7 +434,6 @@
     <None Include="Content\Scripts\jquery.validate-vsdoc.js" />
     <Content Include="Content\Scripts\jquery.validate.js" />
     <Content Include="Content\Scripts\jquery.validate.min.js" />
-    <Content Include="favicon.ico" />
     <Content Include="favicon.png" />
     <Content Include="Views\Account\_ExternalLoginsListPartial.vbhtml" />
     <Content Include="Views\Account\ConfirmEmail.vbhtml" />
@@ -457,9 +455,7 @@
     <Content Include="Views\Manage\VerifyPhoneNumber.vbhtml" />
     <Content Include="Views\Shared\Lockout.vbhtml" />
     <Content Include="Views\Shared\_LoginPartial.vbhtml" />
-    <Content Include="Views\About\Team.vbhtml" />
     <Content Include="Views\Error\WIP.vbhtml" />
-    <Content Include="Views\About\Venue.vbhtml" />
     <Content Include="Views\Home\About.vbhtml" />
   </ItemGroup>
   <ItemGroup>
@@ -479,7 +475,7 @@
     </Content>
     <Content Include="Content\Scripts\_references.js" />
     <Content Include="Views\_ViewStart.vbhtml" />
-    <Content Include="Views\About\Contact.vbhtml" />
+    <Content Include="Views\Home\Contact.vbhtml" />
     <Content Include="Views\Home\Index.vbhtml" />
     <Content Include="Views\Shared\Error.vbhtml" />
     <Content Include="Views\Shared\_Layout.vbhtml" />
