@@ -9,7 +9,7 @@ End Code
 		<h1>OPOMUN</h1>
 		<h2>Dare to make the difference</h2>
 		<div class="container timestamp">
-			Feburary
+			February
 			<time datetime="2017-02-23">23</time>,
 			<time datetime="2017-02-24">24</time> and
 			<time datetime="2017-02-25">25</time>
