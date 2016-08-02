@@ -267,9 +267,6 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="ApplicationInsights.config">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
     <Content Include="Content\CSS\Bootstrap\bootstrap.css" />
     <Content Include="Content\CSS\Bootstrap\bootstrap.min.css">
       <DependentUpon>bootstrap.css</DependentUpon>
