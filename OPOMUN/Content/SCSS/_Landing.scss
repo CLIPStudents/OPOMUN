@@ -1,0 +1,80 @@
+﻿.landing {
+	background: url("/Content/Images/Header Background Gradient.jpg") !important;
+	background-position: center !important;
+
+	img {
+		height: 17.5%;
+		height: 17.5vh;
+		margin-top:60px;
+	}
+
+	h1 {
+		font-size: 4.4em !important;
+		font-weight: 800 !important;
+		margin-top: 10px;
+		
+		letter-spacing: 4px;
+	}
+
+	h2 {
+		font-size: 2.2em;
+		font-weight: 400;
+		margin-top: -20px !important;
+		
+		letter-spacing:	1px;
+//		letter-spacing: 10.44px;
+		text-transform: uppercase;
+
+		color: rgba(255, 255, 255, 1) !important;
+	}
+
+	.timestamp {
+		font-size: 2em;
+		font-weight: 400;
+		font-style: italic;
+		font-family: "Merriweather","Times New Roman",serif;
+
+		letter-spacing: 0.16px;
+
+		margin-top: -38px;
+
+		hr {
+			border-top-width: 2px;
+			border-top-style: solid;
+			border-top-color: rgba(255, 255, 255, 0.36);
+
+//			width: 28vw;
+		}
+
+		& > .hr-bottom {
+			margin-top: 20px;
+		}
+
+		& > .hr-top {
+			margin-bottom: 20px;
+		}
+	}
+
+	.button-row {
+		margin-top: -40px;
+
+		p {
+			background-color: $Color-Secondary;
+			transition: background-color 250ms linear;
+
+			border-radius: 0px;
+
+			font-family: "Merriweather", "Times New Roman", serif;
+			font-size: 20.8px;
+			font-style: italic;
+
+			padding-top: 10px;
+			padding-bottom: 10px;
+
+			&:hover {
+				background: $Color-Primary;
+				transition: background-color 250ms linear;
+			}
+		}
+	}
+}

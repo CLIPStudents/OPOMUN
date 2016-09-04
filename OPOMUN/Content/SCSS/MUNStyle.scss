@@ -1,0 +1,12 @@
+﻿// Base Variables
+$Color-Primary: rgb(63, 169, 245);
+
+$Color-Secondary: rgb(254, 43, 117);
+$Color-Highlight: $Color-Secondary;
+
+// Mixins
+
+
+// Imports
+@import "BaseStyle";
+@import "Landing";
