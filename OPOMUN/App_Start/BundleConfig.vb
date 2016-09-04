@@ -1,31 +1,27 @@
 ﻿Imports System.Web.Optimization
 
 Public Module BundleConfig
+	' For more information on bundling, visit http://go.microsoft.com/fwlink/?LinkId=301862
 	Public Sub RegisterBundles(ByVal bundles As BundleCollection)
-		bundles.Add(
-			New ScriptBundle("~/Bundles/jQuery").Include(
-				"~/Content/Scripts/jquery-{version}.js"
-			)
-		)
 
-		bundles.Add(
-			New ScriptBundle("~/Bundles/jQueryVal").Include(
-				"~/Content/Scripts/jquery.validate*"
-			)
-		)
+		bundles.Add(New ScriptBundle("~/bundles/jquery").Include(
+					"~/Scripts/jquery-{version}.js"))
 
-		bundles.Add(
-			New ScriptBundle("~/Bundles/MainScript").Include(
-				"~/Content/Scripts/Bootstrap3/bootstrap.js",
-				"~/Content/Scripts/CurrentSelector.js"
-			)
-		)
+		bundles.Add(New ScriptBundle("~/bundles/jqueryval").Include(
+					"~/Scripts/jquery.validate*"))
 
-		bundles.Add(
-			New StyleBundle("~/Bundles/MainStyle").Include(
-				"~/Content/CSS/Bootstrap3/bootstrap.css",
-				"~/Content/CSS/MainStyle/MainStyle.css"
-			)
-		)
+		' Use the development version of Modernizr to develop with and learn from. Then, when you're
+		' ready for production, use the build tool at http://modernizr.com to pick only the tests you need.
+		bundles.Add(New ScriptBundle("~/bundles/modernizr").Include(
+					"~/Scripts/modernizr-*"))
+
+		bundles.Add(New ScriptBundle("~/bundles/bootstrap").Include(
+				  "~/Scripts/bootstrap.js",
+				  "~/Scripts/respond.js"))
+
+		bundles.Add(New StyleBundle("~/Content/css").Include(
+				  "~/Content/bootstrap.css",
+				  "~/Content/site.css"))
 	End Sub
 End Module
+

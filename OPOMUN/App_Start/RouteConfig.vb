@@ -8,12 +8,11 @@ Imports System.Web.Routing
 Public Module RouteConfig
 	Public Sub RegisterRoutes(ByVal routes As RouteCollection)
 		routes.IgnoreRoute("{resource}.axd/{*pathInfo}")
-		routes.LowercaseUrls = True
 
 		routes.MapRoute(
-			name:="Index Default",
+			name:="Default",
 			url:="{controller}/{action}/{id}",
-			defaults:=New With {.controller = "home", .action = "index", .id = UrlParameter.Optional}
+			defaults:=New With {.controller = "Home", .action = "Index", .id = UrlParameter.Optional}
 		)
 	End Sub
 End Module

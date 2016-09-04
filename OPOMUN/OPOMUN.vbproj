@@ -9,12 +9,12 @@
     <ProductVersion>
     </ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{A4242B8A-5F22-4966-806F-04128118878B}</ProjectGuid>
+    <ProjectGuid>{240E6048-334C-43B7-A871-95B1A1F41D7D}</ProjectGuid>
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{F184B08F-C81C-45F6-A57F-5ABD9991F28F}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <RootNamespace>OPOMUN</RootNamespace>
     <AssemblyName>OPOMUN</AssemblyName>
-    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
     <OptionExplicit>On</OptionExplicit>
     <OptionCompare>Binary</OptionCompare>
     <OptionStrict>Off</OptionStrict>
@@ -28,7 +28,6 @@
     <UseGlobalApplicationHostFile />
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
-    <ApplicationInsightsResourceId>/subscriptions/cb0fec2a-1870-4c51-a1f5-aa5046e05a94/resourcegroups/OPOMUN/providers/microsoft.insights/components/OPOMUN</ApplicationInsightsResourceId>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -49,42 +48,6 @@
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Antlr3.Runtime, Version=3.5.0.2, Culture=neutral, PublicKeyToken=eb42632606e9261f, processorArchitecture=MSIL">
-      <HintPath>..\packages\Antlr.3.5.0.2\lib\Antlr3.Runtime.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="Microsoft.AI.Agent.Intercept, Version=1.2.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>..\packages\Microsoft.ApplicationInsights.Agent.Intercept.1.2.1\lib\net45\Microsoft.AI.Agent.Intercept.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="Microsoft.AI.DependencyCollector, Version=2.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>..\packages\Microsoft.ApplicationInsights.DependencyCollector.2.1.0\lib\net45\Microsoft.AI.DependencyCollector.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="Microsoft.AI.PerfCounterCollector, Version=2.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>..\packages\Microsoft.ApplicationInsights.PerfCounterCollector.2.1.0\lib\net45\Microsoft.AI.PerfCounterCollector.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="Microsoft.AI.ServerTelemetryChannel, Version=2.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>..\packages\Microsoft.ApplicationInsights.WindowsServer.TelemetryChannel.2.1.0\lib\net45\Microsoft.AI.ServerTelemetryChannel.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="Microsoft.AI.Web, Version=2.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>..\packages\Microsoft.ApplicationInsights.Web.2.1.0\lib\net45\Microsoft.AI.Web.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="Microsoft.AI.WindowsServer, Version=2.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>..\packages\Microsoft.ApplicationInsights.WindowsServer.2.1.0\lib\net45\Microsoft.AI.WindowsServer.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="Microsoft.ApplicationInsights, Version=2.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>..\packages\Microsoft.ApplicationInsights.2.1.0\lib\net46\Microsoft.ApplicationInsights.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="Microsoft.ApplicationInsights.TraceListener, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>..\packages\Microsoft.ApplicationInsights.TraceListener.2.0.0\lib\net45\Microsoft.ApplicationInsights.TraceListener.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
     <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
       <Private>True</Private>
@@ -145,6 +108,10 @@
     <Reference Include="WebGrease">
       <Private>True</Private>
       <HintPath>..\packages\WebGrease.1.5.2\lib\WebGrease.dll</HintPath>
+    </Reference>
+    <Reference Include="Antlr3.Runtime">
+      <Private>True</Private>
+      <HintPath>..\packages\Antlr.3.4.1.9004\lib\Antlr3.Runtime.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -231,7 +198,6 @@
     <Compile Include="App_Start\RouteConfig.vb" />
     <Compile Include="App_Start\Startup.Auth.vb" />
     <Compile Include="Controllers\AccountController.vb" />
-    <Compile Include="Controllers\ErrorController.vb" />
     <Compile Include="Controllers\ManageController.vb" />
     <Compile Include="Global.asax.vb">
       <DependentUpon>Global.asax</DependentUpon>
@@ -255,7 +221,6 @@
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
     <Compile Include="Controllers\HomeController.vb" />
-    <Compile Include="Settings.vb" />
     <Compile Include="Startup.vb" />
   </ItemGroup>
   <ItemGroup>
@@ -267,171 +232,25 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Content\CSS\Bootstrap\bootstrap.css" />
-    <Content Include="Content\CSS\Bootstrap\bootstrap.min.css">
-      <DependentUpon>bootstrap.css</DependentUpon>
-    </Content>
-    <Content Include="Content\CSS\Bootstrap3\bootstrap-theme.css" />
-    <Content Include="Content\CSS\Bootstrap3\bootstrap-theme.min.css" />
-    <Content Include="Content\CSS\Bootstrap3\bootstrap.css" />
-    <Content Include="Content\CSS\Bootstrap3\bootstrap.min.css" />
-    <Content Include="Content\CSS\MainStyle\MainStyle.css" />
-    <Content Include="Content\CSS\MainStyle\MainStyle.min.css">
-      <DependentUpon>MainStyle.css</DependentUpon>
-    </Content>
-    <Content Include="Content\Fonts\glyphicons-halflings-regular.svg" />
-    <Content Include="Content\Images\Background Vector.svg" />
-    <Content Include="Content\Images\Header Background Gradient.jpg" />
-    <Content Include="Content\Images\Header Background Gradient.png" />
-    <Content Include="Content\Images\Header Background.jpg" />
-    <Content Include="Content\Images\OPOMUN Bird Outline.png" />
-    <Content Include="Content\Images\OPOMUN Bird Outline.svg" />
-    <Content Include="Content\Images\OPOMUN Bird.png" />
-    <Content Include="Content\Images\OPOMUN Bird.svg" />
-    <Content Include="Content\Images\OPOMUN Logo.png" />
-    <Content Include="Content\Images\OPOMUN Logo.svg" />
-    <Content Include="Content\Scripts\AppInsights.js" />
-    <Content Include="Content\Scripts\Bootstrap3\bootstrap-sprockets.js" />
-    <Content Include="Content\Scripts\Bootstrap3\bootstrap.js" />
-    <Content Include="Content\Scripts\Bootstrap3\bootstrap.min.js" />
-    <Content Include="Content\Scripts\Bootstrap3\bootstrap\affix.js" />
-    <Content Include="Content\Scripts\Bootstrap3\bootstrap\alert.js" />
-    <Content Include="Content\Scripts\Bootstrap3\bootstrap\button.js" />
-    <Content Include="Content\Scripts\Bootstrap3\bootstrap\carousel.js" />
-    <Content Include="Content\Scripts\Bootstrap3\bootstrap\collapse.js" />
-    <Content Include="Content\Scripts\Bootstrap3\bootstrap\dropdown.js" />
-    <Content Include="Content\Scripts\Bootstrap3\bootstrap\modal.js" />
-    <Content Include="Content\Scripts\Bootstrap3\bootstrap\popover.js" />
-    <Content Include="Content\Scripts\Bootstrap3\bootstrap\scrollspy.js" />
-    <Content Include="Content\Scripts\Bootstrap3\bootstrap\tab.js" />
-    <Content Include="Content\Scripts\Bootstrap3\bootstrap\tooltip.js" />
-    <Content Include="Content\Scripts\Bootstrap3\bootstrap\transition.js" />
-    <Content Include="Content\Scripts\Bootstrap\bootstrap.js" />
-    <Content Include="Content\Scripts\Bootstrap\bootstrap.min.js" />
-    <Content Include="Content\Scripts\Bootstrap\npm.js" />
-    <Content Include="Content\Scripts\Bootstrap\umd\alert.js" />
-    <Content Include="Content\Scripts\Bootstrap\umd\button.js" />
-    <Content Include="Content\Scripts\Bootstrap\umd\carousel.js" />
-    <Content Include="Content\Scripts\Bootstrap\umd\collapse.js" />
-    <Content Include="Content\Scripts\Bootstrap\umd\dropdown.js" />
-    <Content Include="Content\Scripts\Bootstrap\umd\modal.js" />
-    <Content Include="Content\Scripts\Bootstrap\umd\popover.js" />
-    <Content Include="Content\Scripts\Bootstrap\umd\scrollspy.js" />
-    <Content Include="Content\Scripts\Bootstrap\umd\tab.js" />
-    <Content Include="Content\Scripts\Bootstrap\umd\tooltip.js" />
-    <Content Include="Content\Scripts\Bootstrap\umd\util.js" />
-    <Content Include="Content\Scripts\CurrentSelector.js" />
-    <Content Include="Content\SCSS\Bootstrap\.csscomb.json" />
-    <Content Include="Content\SCSS\Bootstrap\.scss-lint.yml" />
-    <Content Include="Content\SCSS\Bootstrap\bootstrap-flex.scss" />
-    <Content Include="Content\SCSS\Bootstrap\bootstrap-grid.scss" />
-    <Content Include="Content\SCSS\Bootstrap\bootstrap-reboot.scss" />
-    <Content Include="Content\SCSS\Bootstrap\bootstrap.scss" />
-    <Content Include="Content\SCSS\Bootstrap\mixins\_alert.scss" />
-    <Content Include="Content\SCSS\Bootstrap\mixins\_background-variant.scss" />
-    <Content Include="Content\SCSS\Bootstrap\mixins\_border-radius.scss" />
-    <Content Include="Content\SCSS\Bootstrap\mixins\_breakpoints.scss" />
-    <Content Include="Content\SCSS\Bootstrap\mixins\_buttons.scss" />
-    <Content Include="Content\SCSS\Bootstrap\mixins\_cards.scss" />
-    <Content Include="Content\SCSS\Bootstrap\mixins\_center-block.scss" />
-    <Content Include="Content\SCSS\Bootstrap\mixins\_clearfix.scss" />
-    <Content Include="Content\SCSS\Bootstrap\mixins\_forms.scss" />
-    <Content Include="Content\SCSS\Bootstrap\mixins\_gradients.scss" />
-    <Content Include="Content\SCSS\Bootstrap\mixins\_grid-framework.scss" />
-    <Content Include="Content\SCSS\Bootstrap\mixins\_grid.scss" />
-    <Content Include="Content\SCSS\Bootstrap\mixins\_hover.scss" />
-    <Content Include="Content\SCSS\Bootstrap\mixins\_image.scss" />
-    <Content Include="Content\SCSS\Bootstrap\mixins\_label.scss" />
-    <Content Include="Content\SCSS\Bootstrap\mixins\_list-group.scss" />
-    <Content Include="Content\SCSS\Bootstrap\mixins\_lists.scss" />
-    <Content Include="Content\SCSS\Bootstrap\mixins\_nav-divider.scss" />
-    <Content Include="Content\SCSS\Bootstrap\mixins\_navbar-align.scss" />
-    <Content Include="Content\SCSS\Bootstrap\mixins\_pagination.scss" />
-    <Content Include="Content\SCSS\Bootstrap\mixins\_progress.scss" />
-    <Content Include="Content\SCSS\Bootstrap\mixins\_pulls.scss" />
-    <Content Include="Content\SCSS\Bootstrap\mixins\_reset-filter.scss" />
-    <Content Include="Content\SCSS\Bootstrap\mixins\_reset-text.scss" />
-    <Content Include="Content\SCSS\Bootstrap\mixins\_resize.scss" />
-    <Content Include="Content\SCSS\Bootstrap\mixins\_screen-reader.scss" />
-    <Content Include="Content\SCSS\Bootstrap\mixins\_size.scss" />
-    <Content Include="Content\SCSS\Bootstrap\mixins\_tab-focus.scss" />
-    <Content Include="Content\SCSS\Bootstrap\mixins\_table-row.scss" />
-    <Content Include="Content\SCSS\Bootstrap\mixins\_text-emphasis.scss" />
-    <Content Include="Content\SCSS\Bootstrap\mixins\_text-hide.scss" />
-    <Content Include="Content\SCSS\Bootstrap\mixins\_text-truncate.scss" />
-    <Content Include="Content\SCSS\Bootstrap\_alert.scss" />
-    <Content Include="Content\SCSS\Bootstrap\_animation.scss" />
-    <Content Include="Content\SCSS\Bootstrap\_breadcrumb.scss" />
-    <Content Include="Content\SCSS\Bootstrap\_button-group.scss" />
-    <Content Include="Content\SCSS\Bootstrap\_buttons.scss" />
-    <Content Include="Content\SCSS\Bootstrap\_card.scss" />
-    <Content Include="Content\SCSS\Bootstrap\_carousel.scss" />
-    <Content Include="Content\SCSS\Bootstrap\_close.scss" />
-    <Content Include="Content\SCSS\Bootstrap\_code.scss" />
-    <Content Include="Content\SCSS\Bootstrap\_custom-forms.scss" />
-    <Content Include="Content\SCSS\Bootstrap\_dropdown.scss" />
-    <Content Include="Content\SCSS\Bootstrap\_forms.scss" />
-    <Content Include="Content\SCSS\Bootstrap\_grid.scss" />
-    <Content Include="Content\SCSS\Bootstrap\_images.scss" />
-    <Content Include="Content\SCSS\Bootstrap\_input-group.scss" />
-    <Content Include="Content\SCSS\Bootstrap\_jumbotron.scss" />
-    <Content Include="Content\SCSS\Bootstrap\_labels.scss" />
-    <Content Include="Content\SCSS\Bootstrap\_list-group.scss" />
-    <Content Include="Content\SCSS\Bootstrap\_media.scss" />
-    <Content Include="Content\SCSS\Bootstrap\_mixins.scss" />
-    <Content Include="Content\SCSS\Bootstrap\_modal.scss" />
-    <Content Include="Content\SCSS\Bootstrap\_nav.scss" />
-    <Content Include="Content\SCSS\Bootstrap\_navbar.scss" />
-    <Content Include="Content\SCSS\Bootstrap\_normalize.scss" />
-    <Content Include="Content\SCSS\Bootstrap\_pager.scss" />
-    <Content Include="Content\SCSS\Bootstrap\_pagination.scss" />
-    <Content Include="Content\SCSS\Bootstrap\_popover.scss" />
-    <Content Include="Content\SCSS\Bootstrap\_print.scss" />
-    <Content Include="Content\SCSS\Bootstrap\_progress.scss" />
-    <Content Include="Content\SCSS\Bootstrap\_reboot.scss" />
-    <Content Include="Content\SCSS\Bootstrap\_responsive-embed.scss" />
-    <Content Include="Content\SCSS\Bootstrap\_tables.scss" />
-    <Content Include="Content\SCSS\Bootstrap\_tooltip.scss" />
-    <Content Include="Content\SCSS\Bootstrap\_type.scss" />
-    <Content Include="Content\SCSS\Bootstrap\_utilities-background.scss" />
-    <Content Include="Content\SCSS\Bootstrap\_utilities-responsive.scss" />
-    <Content Include="Content\SCSS\Bootstrap\_utilities-spacing.scss" />
-    <Content Include="Content\SCSS\Bootstrap\_utilities.scss" />
-    <Content Include="Content\SCSS\Bootstrap\_variables.scss" />
-    <None Include="compilerconfig.json" />
-    <None Include="compilerconfig.json.defaults">
-      <DependentUpon>compilerconfig.json</DependentUpon>
-    </None>
-    <Content Include="Content\Fonts\glyphicons-halflings-regular.eot" />
-    <Content Include="Content\Fonts\glyphicons-halflings-regular.ttf" />
-    <Content Include="Content\Fonts\glyphicons-halflings-regular.woff" />
-    <Content Include="Content\Fonts\glyphicons-halflings-regular.woff2" />
-    <Content Include="Content\CSS\Bootstrap3\bootstrap-theme.css.map" />
-    <Content Include="Content\CSS\Bootstrap3\bootstrap-theme.min.css.map" />
-    <Content Include="Content\CSS\Bootstrap3\bootstrap.css.map" />
-    <Content Include="Content\CSS\Bootstrap3\bootstrap.min.css.map" />
-    <Content Include="Content\SCSS\MainStyle\MainStyle.scss" />
-    <Content Include="Content\SCSS\MainStyle\_Landing.scss" />
-    <Content Include="Content\SCSS\MainStyle\_BaseStyle.scss" />
+    <Content Include="Content\bootstrap.css" />
+    <Content Include="Content\bootstrap.min.css" />
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\glyphicons-halflings-regular.eot" />
     <None Include="My Project\Application.myapp">
       <Generator>MyApplicationCodeGenerator</Generator>
       <LastGenOutput>Application.Designer.vb</LastGenOutput>
     </None>
-    <None Include="My Project\PublishProfiles\OPOMUN - Web Deploy.pubxml" />
     <None Include="My Project\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <CustomToolNamespace>My</CustomToolNamespace>
       <LastGenOutput>Settings.Designer.vb</LastGenOutput>
     </None>
-    <Content Include="Content\Scripts\ai.0.22.9-build00167.js" />
-    <Content Include="Content\Scripts\ai.0.22.9-build00167.min.js" />
-    <None Include="Content\Scripts\jquery-2.2.3.intellisense.js" />
-    <Content Include="Content\Scripts\jquery-2.2.3.js" />
-    <Content Include="Content\Scripts\jquery-2.2.3.min.js" />
-    <None Include="Content\Scripts\jquery.validate-vsdoc.js" />
-    <Content Include="Content\Scripts\jquery.validate.js" />
-    <Content Include="Content\Scripts\jquery.validate.min.js" />
-    <Content Include="favicon.png" />
+    <None Include="Scripts\jquery-1.10.2.intellisense.js" />
+    <Content Include="Scripts\jquery-1.10.2.js" />
+    <Content Include="Scripts\jquery-1.10.2.min.js" />
+    <Content Include="Scripts\jquery-1.10.2.min.map" />
     <Content Include="Views\Account\_ExternalLoginsListPartial.vbhtml" />
     <Content Include="Views\Account\ConfirmEmail.vbhtml" />
     <Content Include="Views\Account\ExternalLoginConfirmation.vbhtml" />
@@ -452,17 +271,20 @@
     <Content Include="Views\Manage\VerifyPhoneNumber.vbhtml" />
     <Content Include="Views\Shared\Lockout.vbhtml" />
     <Content Include="Views\Shared\_LoginPartial.vbhtml" />
-    <Content Include="Views\Error\WIP.vbhtml" />
-    <Content Include="Views\Home\About.vbhtml" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
-    <Content Include="Content\Scripts\jquery-2.2.3.min.map" />
-    <Content Include="Content\Scripts\jquery.validate.unobtrusive.js" />
-    <Content Include="Content\Scripts\jquery.validate.unobtrusive.min.js" />
-    <Content Include="Content\Scripts\modernizr-2.6.2.js" />
-    <Content Include="Content\Scripts\respond.js" />
-    <Content Include="Content\Scripts\respond.min.js" />
+    <Content Include="Scripts\bootstrap.js" />
+    <Content Include="Scripts\bootstrap.min.js" />
+    <None Include="Scripts\jquery.validate-vsdoc.js" />
+    <Content Include="Scripts\jquery.validate.js" />
+    <Content Include="Scripts\jquery.validate.min.js" />
+    <Content Include="Scripts\jquery.validate.unobtrusive.js" />
+    <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
+    <Content Include="Scripts\modernizr-2.6.2.js" />
+    <Content Include="Scripts\respond.js" />
+    <Content Include="Scripts\respond.min.js" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -470,8 +292,10 @@
     <Content Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </Content>
-    <Content Include="Content\Scripts\_references.js" />
+    <Content Include="Content\Site.css" />
+    <Content Include="Scripts\_references.js" />
     <Content Include="Views\_ViewStart.vbhtml" />
+    <Content Include="Views\Home\About.vbhtml" />
     <Content Include="Views\Home\Contact.vbhtml" />
     <Content Include="Views\Home\Index.vbhtml" />
     <Content Include="Views\Shared\Error.vbhtml" />
@@ -483,6 +307,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
+    <None Include="Project_Readme.html" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
@@ -500,7 +325,7 @@
         <WebProjectProperties>
           <UseIIS>True</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>10207</DevelopmentServerPort>
+          <DevelopmentServerPort>25554</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
           <IISUrl>http://localhost:10207/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
