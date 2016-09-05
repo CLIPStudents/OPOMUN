@@ -6,6 +6,7 @@ Public Module BundleConfig
 		' Style bundles
 		bundles.Add(New StyleBundle("~/Content/Bundles/CoreStyle").Include(
 					"~/Content/CSS/bulma.css",
+					"~/Content/CSS/font-awesome.css",
 					"~/Content/CSS/MUNStyle.css"))
 
 		' Toggle minification and bundling during Debug
