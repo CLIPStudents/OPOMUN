@@ -1,5 +1,6 @@
 ﻿@Code
 	ViewData("Title") = "Home"
+	ViewData("BodyTag") = "landing-page"
 End Code
 
 <section class="hero is-primary is-fullheight is-bold landing">

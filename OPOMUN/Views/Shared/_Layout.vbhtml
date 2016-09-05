@@ -12,7 +12,7 @@
 	@Styles.Render("~/Content/Bundles/CoreStyle")
 	@RenderSection("Styles", False)
 </head>
-<body>
+<body class="@ViewBag.BodyTag">
 	@RenderBody()
 </body>
 </html>
