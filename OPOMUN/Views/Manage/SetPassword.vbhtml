@@ -1,6 +1,7 @@
 ﻿@ModelType SetPasswordViewModel
 @Code
-    ViewBag.Title = "Create Password"
+	ViewBag.Title = "Create Password"
+	ViewBag.BodyTag = ""
 End Code
 
 <h2>@ViewBag.Title.</h2>

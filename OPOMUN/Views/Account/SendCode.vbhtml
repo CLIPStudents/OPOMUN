@@ -1,6 +1,7 @@
 ﻿@ModelType SendCodeViewModel
 @Code
-    ViewBag.Title = "Send"
+	ViewBag.Title = "Send"
+	ViewBag.BodyTag = ""
 End Code
 
 <h2>@ViewBag.Title.</h2>

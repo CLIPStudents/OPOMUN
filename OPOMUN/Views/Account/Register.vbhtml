@@ -1,6 +1,7 @@
 ﻿@ModelType RegisterViewModel
 @Code
-    ViewBag.Title = "Register"
+	ViewBag.Title = "Register"
+	ViewBag.BodyTag = ""
 End Code
 
 <h2>@ViewBag.Title.</h2>

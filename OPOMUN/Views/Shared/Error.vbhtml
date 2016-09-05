@@ -1,7 +1,8 @@
 ﻿@ModelType System.Web.Mvc.HandleErrorInfo
 
 @Code
-    ViewBag.Title = "Error"
+	ViewBag.Title = "Error"
+	ViewBag.BodyTag = ""
 End Code
 
 <h1 class="text-danger">Error.</h1>

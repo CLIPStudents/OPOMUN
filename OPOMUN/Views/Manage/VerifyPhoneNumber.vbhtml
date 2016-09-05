@@ -1,6 +1,7 @@
 ﻿@ModelType VerifyPhoneNumberViewModel
 @Code
-    ViewBag.Title = "Verify Phone Number"
+	ViewBag.Title = "Verify Phone Number"
+	ViewBag.BodyTag = ""
 End Code
 
 <h2>@ViewBag.Title.</h2>

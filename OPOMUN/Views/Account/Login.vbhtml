@@ -1,6 +1,7 @@
 ﻿@ModelType LoginViewModel
 @Code
-    ViewBag.Title = "Log in"
+	ViewBag.Title = "Log in"
+	ViewBag.BodyTag = ""
 End Code
 
 <h2>@ViewBag.Title.</h2>

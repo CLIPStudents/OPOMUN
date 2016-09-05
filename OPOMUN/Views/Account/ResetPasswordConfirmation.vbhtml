@@ -1,5 +1,6 @@
 ﻿@Code
-    ViewBag.Title = "Reset password confirmation"
+	ViewBag.Title = "Reset password confirmation"
+	ViewBag.BodyTag = ""
 End Code
 
 <hgroup class="title">

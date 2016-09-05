@@ -1,5 +1,6 @@
 ﻿@Code
-    ViewBag.Title = "Confirm Email"
+	ViewBag.Title = "Confirm Email"
+	ViewBag.BodyTag = ""
 End Code
 
 <h2>@ViewBag.Title.</h2>

@@ -2,7 +2,8 @@
 @Imports Microsoft.Owin.Security
 @Imports Microsoft.AspNet.Identity
 @Code
-    ViewBag.Title = "Manage your external logins"
+	ViewBag.Title = "Manage your external logins"
+	ViewBag.BodyTag = ""
 End Code
 
 <h2>@ViewBag.Title.</h2>

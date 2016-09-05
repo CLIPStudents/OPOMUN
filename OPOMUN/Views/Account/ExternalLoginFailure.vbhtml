@@ -1,5 +1,6 @@
 ﻿@Code
-    ViewBag.Title = "Login Failure"
+	ViewBag.Title = "Login Failure"
+	ViewBag.BodyTag = ""
 End Code
 
 <hgroup>

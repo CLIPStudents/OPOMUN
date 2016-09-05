@@ -1,6 +1,7 @@
 ﻿@ModelType AddPhoneNumberViewModel
 @Code
-    ViewBag.Title = "Phone Number"
+	ViewBag.Title = "Phone Number"
+	ViewBag.BodyTag = ""
 End Code
 
 <h2>@ViewBag.Title.</h2>

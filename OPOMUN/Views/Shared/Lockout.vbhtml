@@ -1,7 +1,8 @@
 ﻿@Imports System.Web.Mvc
 @ModelType HandleErrorInfo
 @Code
-    ViewBag.Title = "Locked Out"
+	ViewBag.Title = "Locked Out"
+	ViewBag.BodyTag = ""
 End Code
 
 <hgroup>

@@ -1,6 +1,7 @@
 ﻿@ModelType ForgotPasswordViewModel
 @Code
-    ViewBag.Title = "Forgot your password?"
+	ViewBag.Title = "Forgot your password?"
+	ViewBag.BodyTag = ""
 End Code
 
 <h2>@ViewBag.Title.</h2>
