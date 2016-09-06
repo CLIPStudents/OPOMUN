@@ -13,6 +13,42 @@
 	@RenderSection("Styles", False)
 </head>
 <body class="@ViewBag.BodyTag">
+	<section class="hero is-primary is-medium navigation-holder">
+		<div class="hero-head">
+			<header class="nav">
+				<div class="container">
+					<div class="nav-left">
+						<a class="nav-item">
+							<img src="/Content/Images/OPOMUN Bird.svg" alt="OPOMUN Bird">
+						</a>
+					</div>
+					<span class="nav-toggle">
+						<span></span>
+						<span></span>
+						<span></span>
+					</span>
+					<div class="nav-right nav-menu">
+						<a class="nav-item is-active">
+							About
+						</a>
+						@Html.Partial("_LoginPartial")
+					</div>
+				</div>
+			</header>
+		</div>
+	</section>
+
 	@RenderBody()
+
+	<footer>
+		<p>
+			C:
+			<span> @HttpContext.Current.Request.RequestContext.RouteData.GetRequiredString("controller").ToUpper</span>
+			A:
+			<span> @HttpContext.Current.Request.RequestContext.RouteData.GetRequiredString("action").ToUpper</span>
+		</p>
+	</footer>
+
+	@RenderSection("Scripts", False)
 </body>
 </html>

@@ -2,9 +2,22 @@
   overflow-x: hidden;
   overflow-y: auto; }
 
+.is-primary {
+  background-color: #3fa9f5; }
+  .is-primary .is-inverted {
+    color: #3fa9f5 !important; }
+
+.navigation-holder {
+  background: url("/Content/Images/Header Background Gradient.jpg") center fixed; }
+
+.landing-page footer, .landing-page .navigation-holder {
+  display: none; }
+
 .landing-page .landing {
   background: url("/Content/Images/Header Background Gradient.jpg") !important;
-  background-position: center !important; }
+  background-size: cover;
+  background-position: center !important;
+  background-attachment: fixed; }
   .landing-page .landing img {
     height: 17.5%;
     height: 17.5vh; }

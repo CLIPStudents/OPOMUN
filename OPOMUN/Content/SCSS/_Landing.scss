@@ -1,7 +1,14 @@
 ﻿.landing-page {
+
+	footer, .navigation-holder {
+		display: none;
+	}
+
 	.landing {
 		background: url("/Content/Images/Header Background Gradient.jpg") !important;
+		background-size: cover;
 		background-position: center !important;
+		background-attachment: fixed;
 
 		img {
 			height: 17.5%;

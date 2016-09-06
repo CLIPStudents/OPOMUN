@@ -3,6 +3,14 @@
 	overflow-y: auto;
 }
 
-header {
+.is-primary {
+	background-color: $Color-Primary;
 
+	.is-inverted {
+		color: $Color-Primary !important;
+	}
+}
+
+.navigation-holder {
+	background: url("/Content/Images/Header Background Gradient.jpg") center fixed;
 }
