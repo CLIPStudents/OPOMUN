@@ -1,16 +1,37 @@
-﻿body, html { 
+﻿html, body { 
 	overflow-x: hidden; 
 	overflow-y: auto;
+
+	background-color: white;
 }
 
 .is-primary {
-	background-color: $Color-Primary;
+	color: white !important;
+	background-color: $Color-Primary !important;
 
 	.is-inverted {
 		color: $Color-Primary !important;
+		background-color: white !important;
+	}
+}
+
+input, textarea {
+	&:active, &:focus, .is-active {
+		border-color: $Color-Primary !important;
 	}
 }
 
 .navigation-holder {
 	background: url("/Content/Images/Header Background Gradient.jpg") center fixed;
+}
+
+.is-italic {
+	font-style: italic;
+}
+
+abbr {
+	&[title="Oporto Model United Nations"] {
+		color: $Color-Primary;
+		border-bottom: none;
+	}
 }

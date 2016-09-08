@@ -4,60 +4,45 @@
 	ViewBag.BodyTag = ""
 End Code
 
-<h2>@ViewBag.Title.</h2>
-<div class="row">
-    <div class="col-md-8">
-        <section id="loginForm">
-            @Using Html.BeginForm("Login", "Account", New With { .ReturnUrl = ViewBag.ReturnUrl }, FormMethod.Post, New With {.class = "form-horizontal", .role = "form"})
-                @Html.AntiForgeryToken()
-                @<text>
-                <h4>Use a local account to log in.</h4>
-                <hr />
-                @Html.ValidationSummary(True, "", New With {.class = "text-danger"})
-                <div class="form-group">
-                    @Html.LabelFor(Function(m) m.Email, New With {.class = "col-md-2 control-label"})
-                    <div class="col-md-10">
-                        @Html.TextBoxFor(Function(m) m.Email, New With {.class = "form-control"})
-                        @Html.ValidationMessageFor(Function(m) m.Email, "", New With {.class = "text-danger"})
-                    </div>
-                </div>
-                <div class="form-group">
-                    @Html.LabelFor(Function(m) m.Password, New With {.class = "col-md-2 control-label"})
-                    <div class="col-md-10">
-                        @Html.PasswordFor(Function(m) m.Password, New With {.class = "form-control"})
-                        @Html.ValidationMessageFor(Function(m) m.Password, "", New With {.class = "text-danger"})
-                    </div>
-                </div>
-                <div class="form-group">
-                    <div class="col-md-offset-2 col-md-10">
-                        <div class="checkbox">
-                            @Html.CheckBoxFor(Function(m) m.RememberMe)
-                            @Html.LabelFor(Function(m) m.RememberMe)
-                        </div>
-                    </div>
-                </div>
-                <div class="form-group">
-                    <div class="col-md-offset-2 col-md-10">
-                        <input type="submit" value="Log in" class="btn btn-default" />
-                    </div>
-                </div>
-                <p>
-                    @Html.ActionLink("Register as a new user", "Register")
-                </p>
-                @* Enable this once you have account confirmation enabled for password reset functionality
-                    <p>
-                        @Html.ActionLink("Forgot your password?", "ForgotPassword")
-                    </p>*@
-                </text>
-            End Using
-        </section>
-    </div>
-    <div class="col-md-4">
-        <section id="socialLoginForm">
-            @Html.Partial("_ExternalLoginsListPartial", New ExternalLoginListViewModel With {.ReturnUrl = ViewBag.ReturnUrl})
-        </section>
-    </div>
-</div>
-@Section Scripts
-    @Scripts.Render("~/bundles/jqueryval")
-End Section
+<section class="section">
+	<div class="container">
+		<h1 class="title">@ViewBag.Title</h1>
+		<h2 class="subtitle">Your <abbr title="Oporto Model United Nations">OPOMUN</abbr> account.</h2>
+		<hr />
+		<div class="card is-fullwidth">
+			<div class="card-content">
+				<div class="content">
+					@Using Html.BeginForm("Login", "Account", New With {.ReturnUrl = ViewBag.ReturnUrl}, FormMethod.Post, New With {.class = "form-horizontal", .role = "form"})
+						@Html.AntiForgeryToken()
+						@<text>
+						@Html.LabelFor(Function(m) m.Email, New With {.class = "label"})
+						<p class="control">
+							@Html.TextBoxFor(Function(m) m.Email, New With {.class = "input"})
+							@Html.ValidationMessageFor(Function(m) m.Email, "", New With {.class = "help is-danger"})
+						</p>
+						
+						@Html.LabelFor(Function(m) m.Password, New With {.class = "label"})
+						<p class="control">
+							@Html.PasswordFor(Function(m) m.Password, New With {.class = "input"})
+							@Html.ValidationMessageFor(Function(m) m.Password, "", New With {.class = "help is-danger"})
+						</p>
+						
+						<p class="control">
+							<label class="checkbox">
+								@Html.CheckBoxFor(Function(m) m.RememberMe)
+								@Html.LabelFor(Function(m) m.RememberMe)
+							</label>
+						</p>
+						
+						<p class="control">
+							<input type="submit" value="Log in" class="button is-primary" />
+						</p>
+						</text>
+					End Using
+					<br />
+					<small>Do <span class="is-italic">not</span> share your credentials.</small>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
