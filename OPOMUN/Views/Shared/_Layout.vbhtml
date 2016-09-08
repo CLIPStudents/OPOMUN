@@ -10,6 +10,7 @@
 	<link href="https://fonts.googleapis.com/css?family=Merriweather:400,400italic,700,700italic" rel="stylesheet" type="text/css">
 
 	@Styles.Render("~/Content/Bundles/CoreStyle")
+	@Scripts.Render("~/Content/Bundles/jQuery")
 	@RenderSection("Styles", False)
 </head>
 <body class="@ViewBag.BodyTag">
@@ -28,7 +29,7 @@
 						<span></span>
 					</span>
 					<div class="nav-right nav-menu">
-						<a class="nav-item is-active">
+						<a class="nav-item">
 							About
 						</a>
 						@Html.Partial("_LoginPartial")
@@ -40,6 +41,7 @@
 
 	@RenderBody()
 
+	@*
 	<footer>
 		<p>
 			C:
@@ -48,7 +50,9 @@
 			<span> @HttpContext.Current.Request.RequestContext.RouteData.GetRequiredString("action").ToUpper</span>
 		</p>
 	</footer>
-
+	*@
+	
+	@Scripts.Render("~/Content/Bundles/CoreScripts")
 	@RenderSection("Scripts", False)
 </body>
 </html>
