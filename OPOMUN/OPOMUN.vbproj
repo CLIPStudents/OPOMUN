@@ -248,6 +248,9 @@
     <Content Include="Content\Images\OPOMUN Bird.svg" />
     <Content Include="Content\Images\OPOMUN Logo.png" />
     <Content Include="Content\Images\OPOMUN Logo.svg" />
+    <Content Include="Content\Scripts\bulma.js" />
+    <Content Include="Content\Scripts\jquery-2.2.0.js" />
+    <Content Include="Content\Scripts\jquery-2.2.0.min.js" />
     <Content Include="Content\SCSS\MUNStyle.css">
       <DependentUpon>MUNStyle.scss</DependentUpon>
     </Content>
