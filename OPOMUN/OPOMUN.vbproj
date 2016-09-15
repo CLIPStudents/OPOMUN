@@ -180,6 +180,20 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\CSS\bulma.css" />
+    <Content Include="Content\CSS\CoreStyle.css" />
+    <Content Include="Content\CSS\CoreStyle.min.css">
+      <DependentUpon>CoreStyle.css</DependentUpon>
+    </Content>
+    <Content Include="Content\Scripts\bulma.js" />
+    <Content Include="Content\Scripts\jquery-2.2.0.js" />
+    <Content Include="Content\Scripts\jquery-2.2.0.min.js" />
+    <Content Include="Content\SCSS\_Variables.scss" />
+    <Content Include="Content\SCSS\CoreStyle.scss" />
+    <None Include="compilerconfig.json" />
+    <None Include="compilerconfig.json.defaults">
+      <DependentUpon>compilerconfig.json</DependentUpon>
+    </None>
     <None Include="My Project\Application.myapp">
       <Generator>MyApplicationCodeGenerator</Generator>
       <LastGenOutput>Application.Designer.vb</LastGenOutput>
