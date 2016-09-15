@@ -7,6 +7,13 @@
 
 	<title>@ViewBag.Title - OPOMUN</title>
 
+	<meta name="keywords" content="OPOMUN, Oporto Model United Nations, Model UN, Model United Nations, MUNer, Debate, Students" />
+	<meta name="description" content="The official website of the Oporto Model United Nations. Dare to make the difference." />
+	<meta name="subject" content="The Oporto Model United Nations official website, providing you all the information you need to be a sucessfull MUNer.">
+	<meta name="copyright" content="Ricardo Loureiro for CLIP - The Oporto International School, All rights reserved.">
+	<meta name="language" content="EN">
+	<meta name="robots" content="index, follow" />
+
 	@Styles.Render("~/Content/Bundles/CoreStyle")
 	@RenderSection("Styles", False)
 	@Scripts.Render("~/Content/Bundles/jQuery")
