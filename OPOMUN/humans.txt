@@ -1,0 +1,10 @@
+﻿/* TEAM */
+	Web developer: Ricardo Loureiro
+	Site: http://devsparkle.me
+	Twitter: @devSparkle
+	Location: Porto, Portugal
+
+/* SITE */
+	Language: English
+	Standards: HTML5, CSS3, ASP.NET MVC 5
+	IDE: Visual Studio, Atom
