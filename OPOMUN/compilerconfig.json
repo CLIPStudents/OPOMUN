@@ -1,6 +1,10 @@
 ﻿[
-  {
-    "outputFile": "Content/CSS/CoreStyle.css",
-    "inputFile": "Content/SCSS/CoreStyle.scss"
-  }
+	{
+		"outputFile": "Content/CSS/CoreStyle.css",
+		"inputFile": "Content/SCSS/CoreStyle.scss"
+	},
+	{
+		"outputFile": "Content/CSS/Landing.css",
+		"inputFile": "Content/SCSS/Landing.scss"
+	}
 ]
