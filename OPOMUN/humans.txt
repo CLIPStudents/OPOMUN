@@ -6,5 +6,6 @@
 
 /* SITE */
 	Language: English
+	Components: jQuery, Bulma
 	Standards: HTML5, CSS3, ASP.NET MVC 5
 	IDE: Visual Studio, Atom
