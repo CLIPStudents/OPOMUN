@@ -181,6 +181,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\CSS\bulma.css" />
+    <Content Include="Content\CSS\bulma.min.css">
+      <DependentUpon>bulma.css</DependentUpon>
+    </Content>
     <Content Include="Content\CSS\CoreStyle.css" />
     <Content Include="Content\CSS\CoreStyle.min.css">
       <DependentUpon>CoreStyle.css</DependentUpon>
@@ -194,6 +197,7 @@
     <Content Include="Content\Scripts\jquery-2.2.0.min.js" />
     <Content Include="Content\SCSS\_Variables.scss" />
     <Content Include="Content\SCSS\CoreStyle.scss" />
+    <None Include="bundleconfig.json" />
     <None Include="compilerconfig.json" />
     <None Include="compilerconfig.json.defaults">
       <DependentUpon>compilerconfig.json</DependentUpon>
