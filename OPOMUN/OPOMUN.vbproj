@@ -193,8 +193,13 @@
       <DependentUpon>Landing.css</DependentUpon>
     </Content>
     <Content Include="Content\Scripts\bulma.js" />
+    <Content Include="Content\Scripts\bulma.min.js">
+      <DependentUpon>bulma.js</DependentUpon>
+    </Content>
     <Content Include="Content\Scripts\jquery-2.2.0.js" />
-    <Content Include="Content\Scripts\jquery-2.2.0.min.js" />
+    <Content Include="Content\Scripts\jquery-2.2.0.min.js">
+      <DependentUpon>jquery-2.2.0.js</DependentUpon>
+    </Content>
     <Content Include="Content\SCSS\_Variables.scss" />
     <Content Include="Content\SCSS\CoreStyle.scss" />
     <None Include="bundleconfig.json" />

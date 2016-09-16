@@ -4,5 +4,11 @@
     "inputFiles": [
       "Content/CSS/bulma.css"
     ]
+  },
+  {
+    "outputFileName": "Content/Scripts/bulma.min.js",
+    "inputFiles": [
+      "Content/Scripts/bulma.js"
+    ]
   }
 ]
