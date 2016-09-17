@@ -33,7 +33,7 @@ End Section
 				</div>
 			</div>
 			<div class="columns button-row">
-				<a class="column is-one-quarter is-offset-one-quarter">
+				<a class="column is-one-quarter is-offset-one-quarter" href="@Url.Action("About", "Home")">
 					<p class="notification is-info">The Conference</p>
 				</a>
 				<a class="column is-one-quarter" href="http://goo.gl/forms/1HI8VgMOhwK74ck23">
