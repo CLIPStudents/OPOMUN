@@ -5,4 +5,18 @@
 
 html, body {
 	background-color: white;
+	font-family: "Arial", sans-serif;
+}
+
+
+.is-primary {
+	color: white !important;
+	background-color: $Color-Primary !important;
+
+
+
+	.is-inverted {
+		color: $Color-Primary !important;
+		background-color: white !important;
+	}
 }

@@ -192,6 +192,13 @@
     <Content Include="Content\CSS\Landing.min.css">
       <DependentUpon>Landing.css</DependentUpon>
     </Content>
+    <Content Include="Content\Images\Background Vector.svg" />
+    <Content Include="Content\Images\Header Background Gradient.jpg" />
+    <Content Include="Content\Images\Header Background Gradient.png" />
+    <Content Include="Content\Images\Header Background.jpg" />
+    <Content Include="Content\Images\OPOMUN Bird.svg" />
+    <Content Include="Content\Images\OPOMUN Logo.svg" />
+    <Content Include="Content\Images\OPOMUN Title.svg" />
     <Content Include="Content\Scripts\bulma.js" />
     <Content Include="Content\Scripts\bulma.min.js">
       <DependentUpon>bulma.js</DependentUpon>
@@ -219,6 +226,7 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="favicon.png" />
     <Content Include="Global.asax" />
     <Content Include="humans.txt" />
     <Content Include="Web.config" />
@@ -229,9 +237,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </Content>
     <Content Include="Views\_ViewStart.vbhtml" />
-    <Content Include="Views\Home\About.vbhtml" />
-    <Content Include="Views\Home\Contact.vbhtml" />
-    <Content Include="Views\Home\Index.vbhtml" />
+    <Content Include="Views\Home\Landing.vbhtml" />
     <Content Include="Views\Shared\Error.vbhtml" />
     <Content Include="Views\Shared\_Layout.vbhtml" />
     <Content Include="Views\Web.config" />

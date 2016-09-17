@@ -11,6 +11,7 @@ Public Module BundleConfig
 
 		' Styles
 		bundles.Add(New StyleBundle("~/Content/Bundles/CoreStyle").Include(
-				  "~/Content/CSS/bulma.css"))
+				  "~/Content/CSS/bulma.css",
+				  "~/Content/CSS/CoreStyle.css"))
 	End Sub
 End Module

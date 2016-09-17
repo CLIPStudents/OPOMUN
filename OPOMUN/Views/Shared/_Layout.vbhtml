@@ -14,39 +14,18 @@
 	<meta name="language" content="EN">
 	<meta name="robots" content="index, follow" />
 
+	<link href="/favicon.png" rel="shortcut icon">
+	<link href="https://fonts.googleapis.com/css?family=Arimo" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Merriweather:400,400italic,700,700italic" rel="stylesheet" type="text/css">
+
 	@Styles.Render("~/Content/Bundles/CoreStyle")
 	@RenderSection("Styles", False)
 	@Scripts.Render("~/Content/Bundles/jQuery")
 </head>
 <body>
-	<div class="navbar navbar-inverse navbar-fixed-top">
-		<div class="container">
-			<div class="navbar-header">
-				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-				</button>
-				@Html.ActionLink("Application name", "Index", "Home", New With {.area = ""}, New With {.class = "navbar-brand"})
-			</div>
-			<div class="navbar-collapse collapse">
-				<ul class="nav navbar-nav">
-					<li>@Html.ActionLink("Home", "Index", "Home")</li>
-					<li>@Html.ActionLink("About", "About", "Home")</li>
-					<li>@Html.ActionLink("Contact", "Contact", "Home")</li>
-				</ul>
-			</div>
-		</div>
-	</div>
-	<div class="container body-content">
-		@RenderBody()
-		<hr />
-		<footer>
-			<p>&copy; @DateTime.Now.Year - My ASP.NET Application</p>
-		</footer>
-	</div>
+	@RenderBody()
 
 	@Scripts.Render("~/Content/Bundles/CoreStyle")
-	@RenderSection("scripts", required:=False)
+	@RenderSection("Scripts", False)
 </body>
 </html>
