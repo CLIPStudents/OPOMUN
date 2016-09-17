@@ -10,5 +10,11 @@
     "inputFiles": [
       "Content/Scripts/bulma.js"
     ]
+  },
+  {
+    "outputFileName": "Content/CSS/font-awesome.min.css",
+    "inputFiles": [
+      "Content/CSS/font-awesome.css"
+    ]
   }
 ]

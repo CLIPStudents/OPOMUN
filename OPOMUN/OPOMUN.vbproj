@@ -189,10 +189,15 @@
     <Content Include="Content\CSS\CoreStyle.min.css">
       <DependentUpon>CoreStyle.css</DependentUpon>
     </Content>
+    <Content Include="Content\CSS\font-awesome.css" />
+    <Content Include="Content\CSS\font-awesome.min.css">
+      <DependentUpon>font-awesome.css</DependentUpon>
+    </Content>
     <Content Include="Content\CSS\Landing.css" />
     <Content Include="Content\CSS\Landing.min.css">
       <DependentUpon>Landing.css</DependentUpon>
     </Content>
+    <Content Include="Content\Fonts\fontawesome-webfont.svg" />
     <Content Include="Content\Images\Background Vector.svg" />
     <Content Include="Content\Images\Header Background Gradient.jpg" />
     <Content Include="Content\Images\Header Background Gradient.png" />
@@ -216,6 +221,11 @@
       <DependentUpon>compilerconfig.json</DependentUpon>
     </None>
     <Content Include="Content\SCSS\Landing.scss" />
+    <Content Include="Content\Fonts\fontawesome-webfont.eot" />
+    <Content Include="Content\Fonts\fontawesome-webfont.ttf" />
+    <Content Include="Content\Fonts\fontawesome-webfont.woff" />
+    <Content Include="Content\Fonts\fontawesome-webfont.woff2" />
+    <Content Include="Content\Fonts\FontAwesome.otf" />
     <None Include="My Project\Application.myapp">
       <Generator>MyApplicationCodeGenerator</Generator>
       <LastGenOutput>Application.Designer.vb</LastGenOutput>
