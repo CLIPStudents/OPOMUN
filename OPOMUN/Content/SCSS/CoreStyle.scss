@@ -13,9 +13,11 @@ html, body {
 	color: white !important;
 	background-color: $Color-Primary !important;
 
+	&.hero-navbar {
+		background: url("/Content/Images/Header Background Gradient.jpg")
+	}
 
-
-	.is-inverted {
+	&.is-inverted {
 		color: $Color-Primary !important;
 		background-color: white !important;
 	}

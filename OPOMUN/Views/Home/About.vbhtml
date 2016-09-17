@@ -3,14 +3,18 @@
 	ViewData("Title") = "About"
 End Code
 
-<nav class="nav has-shadow">
-	<div class="container">
-		<div class="nav-center">
-			@For Each Subpage In Model.Subpages
-				@<a class="nav-item is-tab @IIf(Subpage.IsActive, "is-active", "")" href="@Url.Action("About", routeValues:=New With {.id = Subpage.Name})">@Subpage.Name</a>
-			Next
-		</div>
+@section NavbarFooter
+	<div class="hero-foot">
+		<nav class="tabs">
+			<div class="container">
+				<ul>
+					@For Each Subpage In Model.Subpages
+						@<li class="@IIf(Subpage.IsActive, "is-active", "")"><a href="@Url.Action("About", routeValues:=New With {.id = Subpage.Name})">@Subpage.Name</a></li>
+					Next
+				</ul>
+			</div>
+		</nav>
 	</div>
-</nav>
+End Section
 
 @Html.Partial(Model.PartialToLoad)

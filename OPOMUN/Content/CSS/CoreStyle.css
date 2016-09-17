@@ -5,7 +5,9 @@
 .is-primary {
   color: white !important;
   background-color: #3fa9f5 !important; }
-  .is-primary .is-inverted {
+  .is-primary.hero-navbar {
+    background: url("/Content/Images/Header Background Gradient.jpg"); }
+  .is-primary.is-inverted {
     color: #3fa9f5 !important;
     background-color: white !important; }
 

@@ -2,6 +2,9 @@
   overflow-x: hidden;
   overflow-y: auto; }
 
+.hero-navbar {
+  display: none !important; }
+
 section.landing {
   background: url("/Content/Images/Header Background Gradient.jpg") no-repeat center center fixed !important;
   background-size: cover !important;

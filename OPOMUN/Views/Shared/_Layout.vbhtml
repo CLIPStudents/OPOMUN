@@ -23,6 +23,57 @@
 	@Scripts.Render("~/Content/Bundles/jQuery")
 </head>
 <body>
+	<section class="hero is-primary is-medium hero-navbar">
+		<div class="hero-head">
+			<header class="nav">
+				<div class="container">
+					<div class="nav-left">
+						<a class="nav-item">
+							<img src="/Content/Images/OPOMUN Title.svg" alt="Logo">
+						</a>
+					</div>
+					<span class="nav-toggle">
+						<span></span>
+						<span></span>
+						<span></span>
+					</span>
+					<div class="nav-right nav-menu">
+						<a class="nav-item" href="@Url.Action("Index", "Home")">
+							Home
+						</a>
+						<a class="nav-item" href="@Url.Action("About", "Home")">
+							About
+						</a>
+						<a class="nav-item is-hidden" href="@Url.Action("Contact", "Home")">
+							Contacts
+						</a>
+						<span class="nav-item is-hidden">
+							<a class="button is-primary is-inverted" href="https://github.com/CLIPStudents/OPOMUN">
+								<span class="icon">
+									<i class="fa fa-github"></i>
+								</span>
+								<span>Download</span>
+							</a>
+						</span>
+					</div>
+				</div>
+			</header>
+		</div>
+
+		<div class="hero-body">
+			<div class="container has-text-centered">
+				<h1 class="title">
+					@ViewBag.Title
+				</h1>
+				<h2 class="subtitle">
+					Model United Nations
+				</h2>
+			</div>
+		</div>
+
+		@RenderSection("NavbarFooter", False)
+	</section>
+
 	@RenderBody()
 
 	@Scripts.Render("~/Content/Bundles/CoreStyle")
