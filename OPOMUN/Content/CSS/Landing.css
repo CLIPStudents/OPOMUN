@@ -27,12 +27,15 @@ section.landing {
     font-family: "Arimo", Arial, sans-serif; }
   section.landing .opomun-date {
     padding-left: 50px;
-    padding-right: 50px; }
+    padding-right: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px; }
     section.landing .opomun-date p {
       font-family: "Merriweather", "Times New Roman", serif;
       font-style: italic;
-      margin-top: 14px;
-      margin-bottom: 14px; }
+      margin-top: 25px;
+      margin-bottom: 25px;
+      font-size: 32px; }
     section.landing .opomun-date hr {
       margin: 0;
       border-color: rgba(255, 255, 255, 0.36);
