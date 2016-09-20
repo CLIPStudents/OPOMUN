@@ -22,3 +22,13 @@ html, body {
 		background-color: white !important;
 	}
 }
+
+@media screen and (max-width: 768px) {
+	.nav-logo {
+		margin-left: 10px;
+	}
+
+	#nav-menu {
+		background: url("/Content/Images/Header Background Gradient.jpg")
+	}
+}

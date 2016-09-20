@@ -29,15 +29,15 @@
 				<div class="container">
 					<div class="nav-left">
 						<a class="nav-item">
-							<img src="/Content/Images/OPOMUN Title.svg" alt="Logo">
+							<img src="/Content/Images/OPOMUN Title.svg" class="nav-logo" alt="Logo">
 						</a>
 					</div>
-					<span class="nav-toggle">
+					<span class="nav-toggle" id="nav-toggle">
 						<span></span>
 						<span></span>
 						<span></span>
 					</span>
-					<div class="nav-right nav-menu">
+					<div class="nav-right nav-menu" id="nav-menu">
 						<a class="nav-item" href="@Url.Action("Index", "Home")">
 							Home
 						</a>
@@ -76,7 +76,7 @@
 
 	@RenderBody()
 
-	@Scripts.Render("~/Content/Bundles/CoreStyle")
+	@Scripts.Render("~/Content/Bundles/CoreScripts")
 	@RenderSection("Scripts", False)
 </body>
 </html>
