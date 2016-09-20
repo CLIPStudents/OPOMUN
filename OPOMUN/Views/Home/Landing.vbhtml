@@ -16,6 +16,8 @@ End Section
 			<figure class="opomun-title">
 				<img src="/Content/Images/OPOMUN Title.svg" />
 			</figure>
+
+			<h2 class="subtitle">Dare to make the difference</h2>
 		</div>
 	</div>
 </section>

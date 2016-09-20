@@ -15,10 +15,9 @@ section.landing {
     height: auto;
     max-width: 220px; }
   section.landing .opomun-title img {
-    width: 100% !important;
-    height: auto !important;
-    max-width: 350px !important;
-    max-height: 50px; }
+    width: 100%;
+    height: auto;
+    max-width: 350px; }
   section.landing h2 {
     color: white !important;
     font-size: 35px;
@@ -37,4 +36,14 @@ section.landing {
       margin: 0;
       border-color: rgba(255, 255, 255, 0.36);
       border-top-width: 2px; }
+  @media screen and (max-width: 768px) {
+    section.landing .hero-body {
+      padding-left: 0;
+      padding-right: 0; }
+    section.landing .container {
+      max-width: calc(100vw - 40px);
+      margin-left: 20px;
+      margin-right: 20px; }
+    section.landing h2 {
+      font-size: 1em; } }
 
