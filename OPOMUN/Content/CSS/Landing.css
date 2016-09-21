@@ -63,7 +63,8 @@ section.landing {
       margin-left: 20px;
       margin-right: 20px; }
     section.landing h2 {
-      font-size: 1em; }
+      font-size: 14px;
+      font-size: 5.25vw; }
     section.landing .opomun-date p {
       font-size: 1.4em; }
     section.landing .opomun-date hr {

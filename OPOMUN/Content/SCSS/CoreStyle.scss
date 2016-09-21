@@ -8,13 +8,21 @@ html, body {
 	font-family: "Arial", sans-serif;
 }
 
-
 .is-primary {
 	color: white !important;
 	background-color: $Color-Primary !important;
 
-	&.hero-navbar {
-		background: url("/Content/Images/Header Background Gradient.jpg")
+	.subtitle {
+		color: rgba(255, 225, 255, 0.7)
+	}
+
+	&.hero-navbar, &.is-opomun {
+		background: url("/Content/Images/Header Background Gradient.jpg");
+		background-attachment: fixed;
+
+		figure {
+			border: 1px solid rgba(255, 255, 255, 0.87);
+		}
 	}
 
 	&.is-inverted {
@@ -29,6 +37,7 @@ html, body {
 	}
 
 	#nav-menu {
-		background: url("/Content/Images/Header Background Gradient.jpg")
+		background: url("/Content/Images/Header Background Gradient.jpg");
+		background-attachment: fixed;
 	}
 }
