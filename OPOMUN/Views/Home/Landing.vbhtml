@@ -24,7 +24,7 @@ End Section
 					<hr class="hr-top" />
 
 					<p class="title">
-						23 - 25 February / 2016
+						23 - 25 February / 2017
 					</p>
 
 					<hr class="hr-bottom" />

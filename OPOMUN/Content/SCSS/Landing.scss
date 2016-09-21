@@ -37,7 +37,7 @@ section.landing {
 	}
 
 	h2 {
-		color: rgba(255, 255, 255, 1) !important;
+		color: rgba(white, 1) !important;
 		font-size: 35px;
 		text-transform: uppercase;
 		font-family: "Arimo", Arial, sans-serif;
@@ -59,7 +59,7 @@ section.landing {
 
 		hr {
 			margin: 0;
-			border-color: rgba(255, 255, 255, 0.36);
+			border-color: rgba(white, 0.36);
 			border-top-width: 2px;
 			max-width: 100%;
 			margin: 0 auto;

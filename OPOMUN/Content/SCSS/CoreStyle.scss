@@ -13,7 +13,7 @@ html, body {
 	background-color: $Color-Primary !important;
 
 	.subtitle {
-		color: rgba(255, 225, 255, 0.7)
+		color: rgba(white, 1)
 	}
 
 	&.hero-navbar, &.is-opomun {
@@ -21,7 +21,7 @@ html, body {
 		background-attachment: fixed;
 
 		figure {
-			border: 1px solid rgba(255, 255, 255, 0.87);
+			border: 1px solid rgba(white, 0.87);
 		}
 	}
 
@@ -29,6 +29,11 @@ html, body {
 		color: $Color-Primary !important;
 		background-color: white !important;
 	}
+}
+
+.has-shadow {
+	box-shadow: 0 2px 3px rgba(17, 17, 17, 0.1);
+	position: relative;
 }
 
 @media screen and (max-width: 768px) {

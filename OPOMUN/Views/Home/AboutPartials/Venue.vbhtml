@@ -1,4 +1,4 @@
-﻿<section class="section has-shadow">
+﻿<section class="section">
 	<div class="container has-text-centered">
 		<p>
 			Due to a predicted increase in the number of delegates, we are in negotiations with

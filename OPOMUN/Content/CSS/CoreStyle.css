@@ -6,7 +6,7 @@
   color: white !important;
   background-color: #3fa9f5 !important; }
   .is-primary .subtitle {
-    color: rgba(255, 225, 255, 0.7); }
+    color: white; }
   .is-primary.hero-navbar, .is-primary.is-opomun {
     background: url("/Content/Images/Header Background Gradient.jpg");
     background-attachment: fixed; }
@@ -15,6 +15,10 @@
   .is-primary.is-inverted {
     color: #3fa9f5 !important;
     background-color: white !important; }
+
+.has-shadow {
+  box-shadow: 0 2px 3px rgba(17, 17, 17, 0.1);
+  position: relative; }
 
 @media screen and (max-width: 768px) {
   .nav-logo {

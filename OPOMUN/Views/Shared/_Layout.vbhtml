@@ -38,7 +38,7 @@
 						<span></span>
 					</span>
 					<div class="nav-right nav-menu" id="nav-menu">
-						<a class="nav-item" href="@Url.Action("Index", "Home")">
+						<a class="nav-item" href="@Url.Action("Landing", "Home")">
 							Home
 						</a>
 						<a class="nav-item" href="@Url.Action("About", "Home")">
@@ -66,7 +66,7 @@
 					@ViewBag.Title
 				</h1>
 				<h2 class="subtitle">
-					Model United Nations
+					Oporto Model United Nations
 				</h2>
 			</div>
 		</div>
