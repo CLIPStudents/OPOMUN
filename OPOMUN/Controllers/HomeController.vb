@@ -11,7 +11,7 @@ Public Class HomeController
 		Return View()
 	End Function
 
-	Function About(PageId As String) As ActionResult
+	Function About(ByVal Id As String) As ActionResult
 		Dim Model As New SubnavPage
 		Dim SubpageContainerPath = "~/Views/Home/AboutPartials/"
 		Dim SubpagePartials = Directory.GetFiles(Server.MapPath(SubpageContainerPath))
@@ -19,8 +19,8 @@ Public Class HomeController
 
 		For Each SubpagePartial In SubpagePartials
 			Dim IsActive = False
-			If PageId IsNot Nothing And Directory.Exists(Server.MapPath(SubpageContainerPath & PageId)) Then
-				If PageId = Path.GetFileNameWithoutExtension(SubpagePartial) Then
+			If Id IsNot Nothing And IO.File.Exists(Server.MapPath(SubpageContainerPath & Id & ".vbhtml")) Then
+				If Id = Path.GetFileNameWithoutExtension(SubpagePartial) Then
 					IsActive = True
 				End If
 			ElseIf IsFirst Then

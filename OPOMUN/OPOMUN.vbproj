@@ -241,6 +241,7 @@
     </None>
     <Content Include="Views\Home\About.vbhtml" />
     <Content Include="Views\Home\AboutPartials\Conference.vbhtml" />
+    <Content Include="Views\Home\AboutPartials\Venue.vbhtml" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="favicon.png" />
