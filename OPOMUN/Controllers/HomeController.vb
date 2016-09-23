@@ -40,4 +40,8 @@ Public Class HomeController
 
 		Return View(Model)
 	End Function
+
+	Function Contact() As ActionResult
+		Return View()
+	End Function
 End Class

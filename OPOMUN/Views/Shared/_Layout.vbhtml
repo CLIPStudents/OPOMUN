@@ -44,7 +44,7 @@
 						<a class="nav-item" href="@Url.Action("About", "Home")">
 							About
 						</a>
-						<a class="nav-item is-hidden" href="@Url.Action("Contact", "Home")">
+						<a class="nav-item" href="@Url.Action("Contact", "Home")">
 							Contacts
 						</a>
 						<span class="nav-item is-hidden">

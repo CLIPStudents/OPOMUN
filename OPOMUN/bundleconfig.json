@@ -16,5 +16,11 @@
     "inputFiles": [
       "Content/CSS/font-awesome.css"
     ]
+  },
+  {
+    "outputFileName": "Content/Scripts/gmap-clip.min.js",
+    "inputFiles": [
+      "Content/Scripts/gmap-clip.js"
+    ]
   }
 ]

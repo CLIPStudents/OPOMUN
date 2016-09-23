@@ -1,6 +1,26 @@
 ﻿html, body {
   background-color: white;
   font-family: "Arial", sans-serif; }
+  html h3, body h3 {
+    color: black;
+    font-size: 28px;
+    font-weight: bold; }
+  html h4, body h4 {
+    color: black;
+    font-size: 17px;
+    font-weight: bold; }
+  html p, body p {
+    font-size: 17px; }
+
+.is-map {
+  height: 400px; }
+
+.is-uppercase {
+  text-transform: uppercase; }
+
+.has-shadow {
+  box-shadow: 0 2px 3px rgba(17, 17, 17, 0.1);
+  position: relative; }
 
 .is-primary {
   color: white !important;
@@ -16,9 +36,17 @@
     color: #3fa9f5 !important;
     background-color: white !important; }
 
-.has-shadow {
-  box-shadow: 0 2px 3px rgba(17, 17, 17, 0.1);
-  position: relative; }
+.contacts h3 {
+  margin-bottom: 30px; }
+
+.contacts h4 {
+  margin-bottom: 0 !important; }
+
+.contacts p {
+  color: black; }
+
+.contacts .contact-section {
+  margin-bottom: 20px; }
 
 @media screen and (max-width: 768px) {
   .nav-logo {

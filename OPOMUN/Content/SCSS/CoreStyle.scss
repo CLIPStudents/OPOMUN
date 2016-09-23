@@ -6,6 +6,35 @@
 html, body {
 	background-color: white;
 	font-family: "Arial", sans-serif;
+
+	h3 {
+		color: black;
+		font-size: 28px;
+		font-weight: bold;
+	}
+
+	h4 {
+		color: black;
+		font-size: 17px;
+		font-weight: bold;
+	}
+
+	p {
+		font-size: 17px;
+	}
+}
+
+.is-map {
+	height: 400px;
+}
+
+.is-uppercase {
+	text-transform: uppercase;
+}
+
+.has-shadow {
+	box-shadow: 0 2px 3px rgba(17, 17, 17, 0.1);
+	position: relative;
 }
 
 .is-primary {
@@ -31,9 +60,22 @@ html, body {
 	}
 }
 
-.has-shadow {
-	box-shadow: 0 2px 3px rgba(17, 17, 17, 0.1);
-	position: relative;
+.contacts {
+	h3 {
+		margin-bottom: 30px;
+	}
+
+	h4 {
+		margin-bottom: 0 !important;
+	}
+
+	p {
+		color: black;
+	}
+
+	.contact-section {
+		margin-bottom: 20px;
+	}
 }
 
 @media screen and (max-width: 768px) {

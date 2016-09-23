@@ -211,6 +211,10 @@
     <Content Include="Content\Scripts\bulma.min.js">
       <DependentUpon>bulma.js</DependentUpon>
     </Content>
+    <Content Include="Content\Scripts\gmap-clip.js" />
+    <Content Include="Content\Scripts\gmap-clip.min.js">
+      <DependentUpon>gmap-clip.js</DependentUpon>
+    </Content>
     <Content Include="Content\Scripts\jquery-2.2.0.js" />
     <Content Include="Content\Scripts\jquery-2.2.0.min.js">
       <DependentUpon>jquery-2.2.0.js</DependentUpon>
@@ -241,6 +245,7 @@
     <Content Include="Views\Home\About.vbhtml" />
     <Content Include="Views\Home\AboutPartials\Conference.vbhtml" />
     <Content Include="Views\Home\AboutPartials\Venue.vbhtml" />
+    <Content Include="Views\Home\Contact.vbhtml" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="favicon.png" />
