@@ -3,6 +3,9 @@
 Public Module BundleConfig
 	Public Sub RegisterBundles(ByVal bundles As BundleCollection)
 		' Scripts
+		bundles.Add(New ScriptBundle("~/Content/Bundles/AppInsights").Include(
+					"~/Content/Scripts/Application Insights.js"))
+
 		bundles.Add(New ScriptBundle("~/Content/Bundles/jQuery").Include(
 					"~/Content/Scripts/jquery-{version}.js"))
 

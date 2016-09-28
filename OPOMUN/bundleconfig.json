@@ -22,5 +22,11 @@
     "inputFiles": [
       "Content/Scripts/gmap-clip.js"
     ]
+  },
+  {
+    "outputFileName": "Content/Scripts/Application Insights.min.js",
+    "inputFiles": [
+      "Content/Scripts/Application Insights.js"
+    ]
   }
 ]

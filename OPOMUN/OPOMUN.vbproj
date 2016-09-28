@@ -239,6 +239,10 @@
     <Content Include="Content\Scripts\ai.0.22.19-build00125.min.js">
       <DependentUpon>ai.0.22.19-build00125.js</DependentUpon>
     </Content>
+    <Content Include="Content\Scripts\Application Insights.js" />
+    <Content Include="Content\Scripts\Application Insights.min.js">
+      <DependentUpon>Application Insights.js</DependentUpon>
+    </Content>
     <Content Include="Content\Scripts\bulma.js" />
     <Content Include="Content\Scripts\bulma.min.js">
       <DependentUpon>bulma.js</DependentUpon>
