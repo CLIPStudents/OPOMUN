@@ -1,0 +1,13 @@
+# Build worker image (VM template)
+image: Visual Studio 2015
+
+# branches to build
+branches:
+  # blacklist
+  except:
+    - gh-pages
+
+
+# run before build
+before_build:
+  - nuget restore
