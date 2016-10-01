@@ -1,5 +1,7 @@
 # OPOMUN
 
+[![Build status](https://ci.appveyor.com/api/projects/status/922klhttrbphwqvh?svg=true)](https://ci.appveyor.com/project/devSparkle/opomun)
+
 The *Oporto Model United Nations* or *OPOMUN* is the official Model United Nations of the city of Porto, Portugal. Hosted every year by *CLIP - The Oporto International School*, *OPOMUN* is a internationally renown event, bringing in schools from all over the globe, and joining students from 14 to 18 in several rooms, for intense UN-inspired debates.
 
 ## This Repository
