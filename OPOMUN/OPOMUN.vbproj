@@ -227,13 +227,13 @@
       <DependentUpon>Landing.css</DependentUpon>
     </Content>
     <Content Include="Content\Fonts\fontawesome-webfont.svg" />
-    <Content Include="Content\Images\Background Vector.svg" />
-    <Content Include="Content\Images\Header Background Gradient.jpg" />
-    <Content Include="Content\Images\Header Background Gradient.png" />
-    <Content Include="Content\Images\Header Background.jpg" />
-    <Content Include="Content\Images\OPOMUN Bird.svg" />
-    <Content Include="Content\Images\OPOMUN Logo.svg" />
-    <Content Include="Content\Images\OPOMUN Title.svg" />
+    <Content Include="Content\Images\Background_Vector.svg" />
+    <Content Include="Content\Images\Header_Background_Gradient.jpg" />
+    <Content Include="Content\Images\Header_Background_Gradient.png" />
+    <Content Include="Content\Images\Header_Background.jpg" />
+    <Content Include="Content\Images\OPOMUN_Bird.svg" />
+    <Content Include="Content\Images\OPOMUN_Logo.svg" />
+    <Content Include="Content\Images\OPOMUN_Title.svg" />
     <Content Include="Content\Images\OPOMUN_Picture_1.jpg" />
     <Content Include="Content\Images\OPOMUN_Picture_2.jpg" />
     <Content Include="Content\Scripts\ai.0.22.19-build00125.min.js">

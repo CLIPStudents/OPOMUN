@@ -6,7 +6,7 @@
   display: none !important; }
 
 section.landing {
-  background: url("/Content/Images/Header Background Gradient.jpg") no-repeat center center fixed !important;
+  background: url("/Content/Images/Header_Background_Gradient.jpg") no-repeat center center fixed !important;
   background-size: cover !important;
   background-position: center !important;
   background-attachment: fixed; }

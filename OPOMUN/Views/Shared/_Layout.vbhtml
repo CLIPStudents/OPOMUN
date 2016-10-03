@@ -30,7 +30,7 @@
 				<div class="container">
 					<div class="nav-left">
 						<a class="nav-item" href="@Url.Action("Landing", "Home")">
-							<img src="/Content/Images/OPOMUN Title.svg" class="nav-logo" alt="Logo">
+							<img src="/Content/Images/OPOMUN_Title.svg" class="nav-logo" alt="Logo">
 						</a>
 					</div>
 					<span class="nav-toggle" id="nav-toggle">
