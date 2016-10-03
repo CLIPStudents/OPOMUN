@@ -28,7 +28,9 @@
   .is-primary .subtitle {
     color: white; }
   .is-primary.hero-navbar, .is-primary.is-opomun {
-    background: url("/Content/Images/Header_Background_Gradient.jpg");
+    background: url("/Content/Images/Header_Background_Gradient.jpg") no-repeat center center fixed !important;
+    background-size: cover !important;
+    background-position: center !important;
     background-attachment: fixed; }
     .is-primary.hero-navbar figure, .is-primary.is-opomun figure {
       border: 1px solid rgba(255, 255, 255, 0.87); }
@@ -52,6 +54,8 @@
   .nav-logo {
     margin-left: 10px; }
   #nav-menu {
-    background: url("/Content/Images/Header_Background_Gradient.jpg");
+    background: url("/Content/Images/Header_Background_Gradient.jpg") no-repeat center center fixed !important;
+    background-size: cover !important;
+    background-position: center !important;
     background-attachment: fixed; } }
 
