@@ -46,7 +46,9 @@ html, body {
 	}
 
 	&.hero-navbar, &.is-opomun {
-		background: url("/Content/Images/Header_Background_Gradient.jpg");
+		background: url("/Content/Images/Header_Background_Gradient.jpg") no-repeat center center fixed !important;
+		background-size: cover !important;
+		background-position: center !important;
 		background-attachment: fixed;
 
 		figure {
@@ -84,7 +86,9 @@ html, body {
 	}
 
 	#nav-menu {
-		background: url("/Content/Images/Header_Background_Gradient.jpg");
+		background: url("/Content/Images/Header_Background_Gradient.jpg") no-repeat center center fixed !important;
+		background-size: cover !important;
+		background-position: center !important;
 		background-attachment: fixed;
 	}
 }
