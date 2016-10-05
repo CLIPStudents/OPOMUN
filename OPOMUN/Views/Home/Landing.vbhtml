@@ -10,11 +10,11 @@ End Section
 	<div class="hero-body">
 		<div class="container">
 			<figure class="opomun-logo">
-				<img src="/Content/Images/OPOMUN_Logo.svg" />
+				<img src="/Content/Images/OPOMUN_Logo.svg" alt="Logo" />
 			</figure>
 
 			<figure class="opomun-title">
-				<img src="/Content/Images/OPOMUN_Title.svg" />
+				<img src="/Content/Images/OPOMUN_Title.svg" alt="Oporto Model United Nations" />
 			</figure>
 
 			<h2 class="subtitle">Dare to make the difference</h2>

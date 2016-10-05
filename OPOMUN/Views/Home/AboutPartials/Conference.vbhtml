@@ -19,7 +19,7 @@
 			</div>
 			<div class="column is-offset-2 is-5 is-hidden-mobile">
 				<figure class="image">
-					<img src="/Content/Images/OPOMUN_Picture_1.jpg" />
+					<img src="/Content/Images/OPOMUN_Picture_1.jpg" alt="Students at OPOMUN" />
 				</figure>
 			</div>
 		</div>
@@ -31,7 +31,7 @@
 		<div class="columns">
 			<div class="column is-5">
 				<figure class="image is-hidden-mobile">
-					<img src="/Content/Images/OPOMUN_Picture_2.jpg" />
+					<img src="/Content/Images/OPOMUN_Picture_2.jpg" alt="Students at OPOMUN" />
 				</figure>
 			</div>
 			<div class="column is-offset-2 is-5">
