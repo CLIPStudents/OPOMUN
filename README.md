@@ -1,10 +1,9 @@
 # OPOMUN
 
 [![Build status](https://ci.appveyor.com/api/projects/status/922klhttrbphwqvh?svg=true)](https://ci.appveyor.com/project/devSparkle/opomun)
-[![Assertible test status](https://assertible.com/tests/ae9abc02-d245-48ae-8e25-dc96386aa1d3/status?api_token=GeNI89IfBhwY57WD)](https://assertible.com/dashboard#/tests/ae9abc02-d245-48ae-8e25-dc96386aa1d3)
 [![NuGet](https://img.shields.io/badge/nuget-v3.5.0-blue.svg?maxAge=2592000)]()
 
-The *Oporto Model United Nations* or *OPOMUN* is the official Model United Nations of the city of Porto, Portugal. Hosted every year by *CLIP - The Oporto International School*, *OPOMUN* is a internationally renown event, bringing in schools from all over the globe, and joining students from 14 to 18 in several rooms, for intense UN-inspired debates.
+The *Oporto Model United Nations* or *OPOMUN* is the official Model United Nations of the city of Porto, Portugal. Hosted every year by *CLIP - The Oporto International School*, *OPOMUN* is a internationally renown event, bringing in schools from all over the globe, and joining students from 14 to 18 for intense, UN-inspired debates.
 
 ## This Repository
 
