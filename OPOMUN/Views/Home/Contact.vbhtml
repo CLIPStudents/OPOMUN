@@ -16,9 +16,9 @@ End Section
 		<div class="columns">
 			<div class="column is-one-third">
 				<p>
-					The Oporto International School is an independent and private school dedicated to
-					promote brilliant minds for the future trough innovation, academic excelence and
-					intellectual resilience.
+					The Oporto International School is an independent and private school
+					dedicated to promote brilliant minds for the future through innovation,
+					academic excellence and intellectual resilience.
 				</p>
 			</div>
 			<div class="column is-one-third">
