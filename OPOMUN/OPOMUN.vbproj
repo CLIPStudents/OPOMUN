@@ -251,6 +251,10 @@
     <Content Include="Content\Scripts\gmap-clip.min.js">
       <DependentUpon>gmap-clip.js</DependentUpon>
     </Content>
+    <Content Include="Content\Scripts\gmap-venue.js" />
+    <Content Include="Content\Scripts\gmap-venue.min.js">
+      <DependentUpon>gmap-venue.js</DependentUpon>
+    </Content>
     <Content Include="Content\Scripts\jquery-2.2.0.js" />
     <Content Include="Content\Scripts\jquery-2.2.0.min.js">
       <DependentUpon>jquery-2.2.0.js</DependentUpon>
