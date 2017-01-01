@@ -4,7 +4,7 @@
 End Code
 
 @section Scripts
-	@Scripts.Render("~/Content/Scripts/gmap-clip.js")
+	@Scripts.Render("~/Content/Scripts/gmap-venue.js")
 	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBGVHBlkxVC2JC8Qbid58eaXAy5wTRdzAk&callback=initMap" async defer></script>
 End Section
 
