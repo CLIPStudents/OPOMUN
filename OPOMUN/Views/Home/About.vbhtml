@@ -1,4 +1,4 @@
-﻿@ModelType OPOMUN.SubnavPage
+﻿@ModelType OPOMUN.MasterPage
 @Code
 	ViewData("Title") = "About"
 End Code

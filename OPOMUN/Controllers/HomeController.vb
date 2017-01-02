@@ -12,7 +12,7 @@ Public Class HomeController
 	End Function
 
 	Function About(ByVal Id As String) As ActionResult
-		Dim Model As New SubnavPage
+		Dim Model As New MasterPage
 		Dim SubpageContainerPath = "~/Views/Home/AboutPartials/"
 		Dim SubpagePartials = Directory.GetFiles(Server.MapPath(SubpageContainerPath))
 		Dim IsFirst = True
