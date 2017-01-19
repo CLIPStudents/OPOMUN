@@ -11,6 +11,10 @@ Public Class HomeController
 		Return View()
 	End Function
 
+	Function Committees() As ActionResult
+		Return RedirectToActionPermanent("Committee", "Home")
+	End Function
+
 	Function Committee(ByVal Id As String) As ActionResult
 		Dim Model As New MasterPage
 		Dim SubpageContainerPath = "~/Views/Home/CommitteePartials/"
