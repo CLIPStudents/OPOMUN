@@ -22,22 +22,6 @@
   box-shadow: 0 2px 3px rgba(17, 17, 17, 0.1);
   position: relative; }
 
-.is-primary {
-  color: white !important;
-  background-color: #3fa9f5 !important; }
-  .is-primary .subtitle {
-    color: white; }
-  .is-primary.hero-navbar, .is-primary.is-opomun {
-    background: url("/Content/Images/Header_Background_Gradient.jpg") no-repeat center center fixed !important;
-    background-size: cover !important;
-    background-position: center !important;
-    background-attachment: fixed; }
-    .is-primary.hero-navbar figure, .is-primary.is-opomun figure {
-      border: 1px solid rgba(255, 255, 255, 0.87); }
-  .is-primary.is-inverted {
-    color: #3fa9f5 !important;
-    background-color: white !important; }
-
 .contacts h3 {
   margin-bottom: 30px; }
 
@@ -58,4 +42,23 @@
     background-size: cover !important;
     background-position: center !important;
     background-attachment: fixed; } }
+
+.is-primary {
+  color: white !important;
+  background-color: #3fa9f5 !important; }
+  .is-primary h1, .is-primary .title, .is-primary .subtitle {
+    color: white; }
+  .is-primary.hero-navbar, .is-primary.is-opomun {
+    background: url("/Content/Images/Header_Background_Gradient.jpg") no-repeat center center fixed !important;
+    background-size: cover !important;
+    background-position: center !important;
+    background-attachment: fixed; }
+    .is-primary.hero-navbar figure, .is-primary.is-opomun figure {
+      border: 1px solid rgba(255, 255, 255, 0.87); }
+  .is-primary.is-inverted {
+    color: #3fa9f5 !important;
+    background-color: white !important; }
+
+.is-opomun-text, table a {
+  color: #3fa9f5 !important; }
 
