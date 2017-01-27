@@ -35,6 +35,9 @@ End Section
 				<a class="column is-one-quarter is-offset-one-quarter" href="@Url.Action("About", "Home")">
 					<p class="notification is-info">The Conference</p>
 				</a>
+				<a class="column is-one-quarter" href="@Url.Action("About", "Home", New With {.Id = "Issues"})" rel="nofollow">
+					<p class="notification is-info">The Issues</p>
+				</a>
 			</div>
 		</div>
 	</div>
