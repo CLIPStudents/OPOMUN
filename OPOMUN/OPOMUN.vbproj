@@ -275,6 +275,14 @@
     <Content Include="Content\Fonts\fontawesome-webfont.woff" />
     <Content Include="Content\Fonts\fontawesome-webfont.woff2" />
     <Content Include="Content\Fonts\FontAwesome.otf" />
+    <Content Include="Content\Files\IP_ICJ.pdf" />
+    <Content Include="Content\Files\PP.pdf" />
+    <Content Include="Content\Files\RP_ECOSOC_1.pdf" />
+    <Content Include="Content\Files\RP_ECOSOC_2.pdf" />
+    <Content Include="Content\Files\RP_HR_1.pdf" />
+    <Content Include="Content\Files\RP_HR_2.pdf" />
+    <Content Include="Content\Files\RP_SC_1.pdf" />
+    <Content Include="Content\Files\RP_SC_2.pdf" />
     <None Include="My Project\Application.myapp">
       <Generator>MyApplicationCodeGenerator</Generator>
       <LastGenOutput>Application.Designer.vb</LastGenOutput>
@@ -294,6 +302,7 @@
     <Content Include="Service References\Application Insights\ConnectedService.json" />
     <Content Include="Views\Home\Committee.vbhtml" />
     <Content Include="Views\Home\CommitteePartials\Test.vbhtml" />
+    <Content Include="Views\Home\AboutPartials\Issues.vbhtml" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="favicon.png" />
