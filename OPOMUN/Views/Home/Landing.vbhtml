@@ -35,9 +35,6 @@ End Section
 				<a class="column is-one-quarter is-offset-one-quarter" href="@Url.Action("About", "Home")">
 					<p class="notification is-info">The Conference</p>
 				</a>
-				<a class="column is-one-quarter" href="http://goo.gl/forms/1HI8VgMOhwK74ck23" rel="nofollow">
-					<p class="notification is-info">Register Now</p>
-				</a>
 			</div>
 		</div>
 	</div>
