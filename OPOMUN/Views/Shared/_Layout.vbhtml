@@ -46,9 +46,6 @@
 						<a class="nav-item" href="@Url.Action("About", "Home")">
 							About
 						</a>
-						<a class="nav-item" href="@Url.Action("Committee", "Home")">
-							Committees
-						</a>
 						<a class="nav-item" href="@Url.Action("Contact", "Home")">
 							Contacts
 						</a>
