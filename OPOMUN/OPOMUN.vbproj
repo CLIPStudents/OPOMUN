@@ -300,8 +300,6 @@
     <Content Include="Views\Home\AboutPartials\Venue.vbhtml" />
     <Content Include="Views\Home\Contact.vbhtml" />
     <Content Include="Service References\Application Insights\ConnectedService.json" />
-    <Content Include="Views\Home\Committee.vbhtml" />
-    <Content Include="Views\Home\CommitteePartials\Test.vbhtml" />
     <Content Include="Views\Home\AboutPartials\Issues.vbhtml" />
   </ItemGroup>
   <ItemGroup>
