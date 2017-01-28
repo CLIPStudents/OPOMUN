@@ -30,7 +30,7 @@
 				</div>
 				<div class="contact-section">
 					<h4 class="is-uppercase">Website</h4>
-					<a href="ihg.com">ihg.com</a>
+					<a href="https://ihg.com">ihg.com</a>
 				</div>
 			</div>
 			<div class="column is-one-third">
