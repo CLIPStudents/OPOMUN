@@ -251,6 +251,10 @@
     <Content Include="Content\Scripts\gmap-clip.min.js">
       <DependentUpon>gmap-clip.js</DependentUpon>
     </Content>
+    <Content Include="Content\Scripts\gmap-venue.js" />
+    <Content Include="Content\Scripts\gmap-venue.min.js">
+      <DependentUpon>gmap-venue.js</DependentUpon>
+    </Content>
     <Content Include="Content\Scripts\jquery-2.2.0.js" />
     <Content Include="Content\Scripts\jquery-2.2.0.min.js">
       <DependentUpon>jquery-2.2.0.js</DependentUpon>
@@ -271,12 +275,20 @@
     <Content Include="Content\Fonts\fontawesome-webfont.woff" />
     <Content Include="Content\Fonts\fontawesome-webfont.woff2" />
     <Content Include="Content\Fonts\FontAwesome.otf" />
+    <Content Include="Content\Files\IP_ICJ.pdf" />
+    <Content Include="Content\Files\PP.pdf" />
+    <Content Include="Content\Files\RP_ECOSOC_1.pdf" />
+    <Content Include="Content\Files\RP_ECOSOC_2.pdf" />
+    <Content Include="Content\Files\RP_HR_1.pdf" />
+    <Content Include="Content\Files\RP_HR_2.pdf" />
+    <Content Include="Content\Files\RP_SC_1.pdf" />
+    <Content Include="Content\Files\RP_SC_2.pdf" />
     <None Include="My Project\Application.myapp">
       <Generator>MyApplicationCodeGenerator</Generator>
       <LastGenOutput>Application.Designer.vb</LastGenOutput>
     </None>
-    <None Include="My Project\PublishProfiles\OPOMUN_Live - Web Deploy.pubxml" />
-    <None Include="My Project\PublishProfiles\OPOMUN_Staging - Web Deploy.pubxml" />
+    <None Include="My Project\PublishProfiles\OPOMUN Staging.pubxml" />
+    <None Include="My Project\PublishProfiles\OPOMUN.pubxml" />
     <None Include="My Project\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <CustomToolNamespace>My</CustomToolNamespace>
@@ -288,6 +300,7 @@
     <Content Include="Views\Home\AboutPartials\Venue.vbhtml" />
     <Content Include="Views\Home\Contact.vbhtml" />
     <Content Include="Service References\Application Insights\ConnectedService.json" />
+    <Content Include="Views\Home\AboutPartials\Issues.vbhtml" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="favicon.png" />

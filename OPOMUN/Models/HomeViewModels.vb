@@ -3,7 +3,7 @@
 	Public Property IsActive As Boolean
 End Class
 
-Public Class SubnavPage
+Public Class MasterPage
 	Public Property Subpages As New List(Of NavSubpage)
 	Public Property PartialToLoad As String
 End Class

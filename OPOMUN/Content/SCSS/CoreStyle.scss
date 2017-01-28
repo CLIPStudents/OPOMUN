@@ -37,31 +37,6 @@ html, body {
 	position: relative;
 }
 
-.is-primary {
-	color: white !important;
-	background-color: $Color-Primary !important;
-
-	.subtitle {
-		color: rgba(white, 1)
-	}
-
-	&.hero-navbar, &.is-opomun {
-		background: url("/Content/Images/Header_Background_Gradient.jpg") no-repeat center center fixed !important;
-		background-size: cover !important;
-		background-position: center !important;
-		background-attachment: fixed;
-
-		figure {
-			border: 1px solid rgba(white, 0.87);
-		}
-	}
-
-	&.is-inverted {
-		color: $Color-Primary !important;
-		background-color: white !important;
-	}
-}
-
 .contacts {
 	h3 {
 		margin-bottom: 30px;
@@ -91,4 +66,33 @@ html, body {
 		background-position: center !important;
 		background-attachment: fixed;
 	}
+}
+
+.is-primary {
+	color: white !important;
+	background-color: $Color-Primary !important;
+
+	h1, .title, .subtitle {
+		color: rgba(white, 1);
+	}
+
+	&.hero-navbar, &.is-opomun {
+		background: url("/Content/Images/Header_Background_Gradient.jpg") no-repeat center center fixed !important;
+		background-size: cover !important;
+		background-position: center !important;
+		background-attachment: fixed;
+
+		figure {
+			border: 1px solid rgba(white, 0.87);
+		}
+	}
+
+	&.is-inverted {
+		color: $Color-Primary !important;
+		background-color: white !important;
+	}
+}
+
+.is-opomun-text, table a {
+	color: $Color-Primary !important;
 }

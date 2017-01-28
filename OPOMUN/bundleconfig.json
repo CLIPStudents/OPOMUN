@@ -1,32 +1,38 @@
 [
-  {
-    "outputFileName": "Content/CSS/bulma.min.css",
-    "inputFiles": [
-      "Content/CSS/bulma.css"
-    ]
-  },
-  {
-    "outputFileName": "Content/Scripts/bulma.min.js",
-    "inputFiles": [
-      "Content/Scripts/bulma.js"
-    ]
-  },
-  {
-    "outputFileName": "Content/CSS/font-awesome.min.css",
-    "inputFiles": [
-      "Content/CSS/font-awesome.css"
-    ]
-  },
-  {
-    "outputFileName": "Content/Scripts/gmap-clip.min.js",
-    "inputFiles": [
-      "Content/Scripts/gmap-clip.js"
-    ]
-  },
-  {
-    "outputFileName": "Content/Scripts/Application Insights.min.js",
-    "inputFiles": [
-      "Content/Scripts/Application Insights.js"
-    ]
-  }
+	{
+		"outputFileName": "Content/CSS/bulma.min.css",
+		"inputFiles": [
+			"Content/CSS/bulma.css"
+		]
+	},
+	{
+		"outputFileName": "Content/Scripts/bulma.min.js",
+		"inputFiles": [
+			"Content/Scripts/bulma.js"
+		]
+	},
+	{
+		"outputFileName": "Content/CSS/font-awesome.min.css",
+		"inputFiles": [
+			"Content/CSS/font-awesome.css"
+		]
+	},
+	{
+		"outputFileName": "Content/Scripts/gmap-clip.min.js",
+		"inputFiles": [
+			"Content/Scripts/gmap-clip.js"
+		]
+	},
+	{
+		"outputFileName": "Content/Scripts/gmap-venue.min.js",
+		"inputFiles": [
+			"Content/Scripts/gmap-venue.js"
+		]
+	},
+	{
+		"outputFileName": "Content/Scripts/Application Insights.min.js",
+		"inputFiles": [
+			"Content/Scripts/Application Insights.js"
+		]
+	}
 ]
