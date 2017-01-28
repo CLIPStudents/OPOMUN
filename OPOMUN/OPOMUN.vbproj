@@ -301,7 +301,6 @@
     <Content Include="Views\Home\Contact.vbhtml" />
     <Content Include="Service References\Application Insights\ConnectedService.json" />
     <Content Include="Views\Home\AboutPartials\Issues.vbhtml" />
-    <Content Include="Views\Home\AboutPartials\Schedule.vbhtml" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="favicon.png" />
