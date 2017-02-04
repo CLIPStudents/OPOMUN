@@ -11,6 +11,8 @@
     font-weight: bold; }
   html p, body p {
     font-size: 17px; }
+  html .is-opomun-text, html a, body .is-opomun-text, body a {
+    color: #3fa9f5 !important; }
 
 .is-map {
   height: 400px; }
@@ -53,12 +55,11 @@
     background-size: cover !important;
     background-position: center !important;
     background-attachment: fixed; }
+    .is-primary.hero-navbar a, .is-primary.is-opomun a {
+      color: white !important; }
     .is-primary.hero-navbar figure, .is-primary.is-opomun figure {
       border: 1px solid rgba(255, 255, 255, 0.87); }
   .is-primary.is-inverted {
     color: #3fa9f5 !important;
     background-color: white !important; }
-
-.is-opomun-text, a {
-  color: #3fa9f5 !important; }
 

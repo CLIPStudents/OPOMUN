@@ -22,6 +22,10 @@ html, body {
 	p {
 		font-size: 17px;
 	}
+
+	.is-opomun-text, a {
+		color: $Color-Primary !important;
+	}
 }
 
 .is-map {
@@ -82,6 +86,10 @@ html, body {
 		background-position: center !important;
 		background-attachment: fixed;
 
+		a {
+			color: white !important;
+		}
+
 		figure {
 			border: 1px solid rgba(white, 0.87);
 		}
@@ -91,8 +99,4 @@ html, body {
 		color: $Color-Primary !important;
 		background-color: white !important;
 	}
-}
-
-.is-opomun-text, a {
-	color: $Color-Primary !important;
 }
