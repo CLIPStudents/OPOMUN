@@ -143,6 +143,10 @@
 				<h2 class="title is-opomun-text">ICJ</h2>
 			</div>
 			<div class="column is-8">
+				<p>
+					For more information regarding the ICJ, refer to the <a href="/Content/Files/IP_ICJ.pdf">Information Package PDF</a>.
+				</p>
+				<br />
 				<table class="table">
 					<thead>
 						<tr>
