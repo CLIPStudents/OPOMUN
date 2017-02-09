@@ -63,3 +63,23 @@
     color: #3fa9f5 !important;
     background-color: white !important; }
 
+.schedule > .block {
+  border-top: 4px solid black;
+  border-bottom: 4px solid black;
+  padding-top: 20px;
+  padding-bottom: 20px; }
+  .schedule > .block h3 {
+    font-size: 20px;
+    margin-left: 10px;
+    margin-right: 10px; }
+  .schedule > .block p {
+    font-size: 16px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-style: italic; }
+
+.schedule:nth-child(2n - 1) {
+  background-color: #fe2b75; }
+  .schedule:nth-child(2n - 1) h3, .schedule:nth-child(2n - 1) p {
+    color: white !important; }
+

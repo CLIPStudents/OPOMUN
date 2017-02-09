@@ -100,3 +100,38 @@ html, body {
 		background-color: white !important;
 	}
 }
+
+.schedule {
+
+	& > .block {
+		border-top: 4px solid black;
+		border-bottom: 4px solid black;
+		padding-top: 20px;
+		padding-bottom: 20px;
+
+		h3 {
+			font-size: 20px;
+			margin-left: 10px;
+			margin-right: 10px;
+		}
+
+		p {
+			font-size: 16px;
+			margin-left: 10px;
+			margin-right: 10px;
+			font-style: italic;
+		}
+	}
+
+	&:nth-child(2n - 1) {
+		background-color: $Color-Secondary;
+
+		h3, p {
+			color: white !important;
+		}
+	}
+
+	&:nth-child(2n) {
+
+	}
+}
