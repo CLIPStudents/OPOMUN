@@ -17,8 +17,8 @@
 					<tbody>
 						<tr>
 							<th>1</th>
-							<th>TBA</th>
-							<th>TBA</th>
+							<th><a href="/Content/Files/RR_GA.pdf">.PDF</a></th>
+							<th>Safeguarding World Heritage</th>
 						</tr>
 					</tbody>
 				</table>
