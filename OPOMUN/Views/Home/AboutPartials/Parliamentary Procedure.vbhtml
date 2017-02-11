@@ -371,6 +371,7 @@
 			</p>
 			<blockquote>“Point of Personal Privilege - This delegate is unable to here what the Delegate of China is saying.”</blockquote>
 		</div>
+		<br />
 		<div>
 			<p>
 				<b>Point of Order</b> - This is used when a delegate wishes to question the Chair about a action
@@ -378,6 +379,7 @@
 			</p>
 			<blockquote>“Point of Order - Is it in order for the Delegate of Japan to insult the Delegate of China?”</blockquote>
 		</div>
+		<br />
 		<div>
 			<p>
 				<b>Point of Parliamentary Inquire</b> - This is used when a delegate wishes to question the
@@ -386,6 +388,7 @@
 			</p>
 			<blockquote>“Point of Parliamentary Inquire - Could the chair please explain what is meant by abstaining?”</blockquote>
 		</div>
+		<br />
 		<div>
 			<p>
 				<b>Point of Information to the Speaker</b> - This is a question made to the speaker, and can
@@ -394,6 +397,7 @@
 			</p>
 			<blockquote>“Is the Delegate of South Africa aware that sub-clause b) violates the sovereignty of nations?”</blockquote>
 		</div>
+		<br />
 		<div>
 			<p>
 				<b>Point of Information to the Chair</b> -  This is a question made to the chair that is not related
@@ -401,6 +405,7 @@
 			</p>
 			<blockquote>“Point of Information to the Chair - Could the chair explain what is the Atlantic Treaty?”</blockquote>
 		</div>
+		<br />
 		<div>
 			<p>
 				<b>Motion to move to Voting Procedures</b> -  In open debate, it means that the debate will be
