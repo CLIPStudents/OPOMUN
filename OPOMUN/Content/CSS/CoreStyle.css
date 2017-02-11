@@ -83,3 +83,12 @@
   .schedule:nth-child(2n - 1) h3, .schedule:nth-child(2n - 1) p {
     color: white !important; }
 
+.profile-image {
+  width: 300px !important;
+  height: 300px !important;
+  overflow: hidden;
+  padding: 20px;
+  border-radius: 150px;
+  -webkit-border-radius: 150px;
+  -moz-border-radius: 150px; }
+

@@ -135,3 +135,13 @@ html, body {
 
 	}
 }
+
+.profile-image {
+	width: 300px !important;
+	height: 300px !important;
+	overflow: hidden;
+	padding: 20px;
+	border-radius: 150px;
+	-webkit-border-radius: 150px;
+	-moz-border-radius: 150px;
+}
