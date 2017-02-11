@@ -284,6 +284,7 @@
     <Content Include="Content\Files\RP_SC_1.pdf" />
     <Content Include="Content\Files\RP_SC_2.pdf" />
     <Content Include="Content\Files\Schedule.pdf" />
+    <Content Include="Content\Files\RP_SC_3.pdf" />
     <None Include="My Project\Application.myapp">
       <Generator>MyApplicationCodeGenerator</Generator>
       <LastGenOutput>Application.Designer.vb</LastGenOutput>
