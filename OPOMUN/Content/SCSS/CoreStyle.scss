@@ -145,3 +145,8 @@ html, body {
 	-webkit-border-radius: 150px;
 	-moz-border-radius: 150px;
 }
+
+mark {
+	background-color: $Color-Primary;
+	color: white;
+}
