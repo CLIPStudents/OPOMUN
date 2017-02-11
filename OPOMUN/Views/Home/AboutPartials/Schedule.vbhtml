@@ -1,7 +1,5 @@
-﻿<section>
+﻿<section class="section">
 	<div class="container">
-		<br />
-
 		<p class="subtitle has-text-centered">
 			This page is under construction. Meanwhile, you can find the <a href="/Content/Files/Schedule.pdf">.PDF schedule here</a>.
 		</p>
