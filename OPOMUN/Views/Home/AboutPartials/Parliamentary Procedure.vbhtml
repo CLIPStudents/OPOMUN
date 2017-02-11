@@ -1,5 +1,11 @@
 ﻿<section class="section has-shadow">
 	<div class="container">
+		<p class="has-text-centered">The print-able document for this page is available <a href="/Content/Files/PP.pdf">here</a>.</p>
+	</div>
+</section>
+
+<section class="section has-shadow">
+	<div class="container">
 		<h2 class="title is-opomun-text">Debate Style</h2>
 		<p>
 			OPOMUN, is a clause-by-clause styled conference, which seeks to incentivise a
