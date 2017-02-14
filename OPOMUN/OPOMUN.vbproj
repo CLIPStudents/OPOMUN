@@ -206,13 +206,6 @@
     <Content Include="Content\Images\OPOMUN_Title.svg" />
     <Content Include="Content\Images\OPOMUN_Picture_1.jpg" />
     <Content Include="Content\Images\OPOMUN_Picture_2.jpg" />
-    <Content Include="Content\Scripts\ai.0.22.19-build00125.min.js">
-      <DependentUpon>ai.0.22.19-build00125.js</DependentUpon>
-    </Content>
-    <Content Include="Content\Scripts\Application Insights.js" />
-    <Content Include="Content\Scripts\Application Insights.min.js">
-      <DependentUpon>Application Insights.js</DependentUpon>
-    </Content>
     <Content Include="Content\Scripts\bulma.js" />
     <Content Include="Content\Scripts\bulma.min.js">
       <DependentUpon>bulma.js</DependentUpon>
@@ -264,7 +257,6 @@
       <CustomToolNamespace>My</CustomToolNamespace>
       <LastGenOutput>Settings.Designer.vb</LastGenOutput>
     </None>
-    <Content Include="Content\Scripts\ai.0.22.19-build00125.js" />
     <Content Include="Views\Home\About.vbhtml" />
     <Content Include="Views\Home\AboutPartials\Conference.vbhtml" />
     <Content Include="Views\Home\AboutPartials\Schedule.vbhtml" />

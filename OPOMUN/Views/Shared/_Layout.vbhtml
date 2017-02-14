@@ -20,8 +20,8 @@
 	<link href="https://fonts.googleapis.com/css?family=Merriweather:400,400italic,700,700italic" rel="stylesheet" type="text/css">
 
 	@Styles.Render("~/Content/Bundles/CoreStyle")
-	@Scripts.Render("~/Content/Bundles/AppInsights")
 	@RenderSection("Styles", False)
+
 	@Scripts.Render("~/Content/Bundles/jQuery")
 </head>
 <body>
