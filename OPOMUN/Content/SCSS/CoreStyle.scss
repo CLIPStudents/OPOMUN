@@ -22,6 +22,10 @@ html, body {
 	p {
 		font-size: 17px;
 	}
+
+	.is-opomun-text, a {
+		color: $Color-Primary !important;
+	}
 }
 
 .is-map {
@@ -82,6 +86,10 @@ html, body {
 		background-position: center !important;
 		background-attachment: fixed;
 
+		a {
+			color: white !important;
+		}
+
 		figure {
 			border: 1px solid rgba(white, 0.87);
 		}
@@ -93,6 +101,52 @@ html, body {
 	}
 }
 
-.is-opomun-text, a {
-	color: $Color-Primary !important;
+.schedule {
+
+	& > .block {
+		border-top: 4px solid black;
+		border-bottom: 4px solid black;
+		padding-top: 20px;
+		padding-bottom: 20px;
+
+		h3 {
+			font-size: 20px;
+			margin-left: 10px;
+			margin-right: 10px;
+		}
+
+		p {
+			font-size: 16px;
+			margin-left: 10px;
+			margin-right: 10px;
+			font-style: italic;
+		}
+	}
+
+	&:nth-child(2n - 1) {
+		background-color: $Color-Secondary;
+
+		h3, p {
+			color: white !important;
+		}
+	}
+
+	&:nth-child(2n) {
+
+	}
+}
+
+.profile-image {
+	width: 300px !important;
+	height: 300px !important;
+	overflow: hidden;
+	padding: 20px;
+	border-radius: 150px;
+	-webkit-border-radius: 150px;
+	-moz-border-radius: 150px;
+}
+
+mark {
+	background-color: $Color-Primary;
+	color: white;
 }

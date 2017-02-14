@@ -11,6 +11,8 @@
     font-weight: bold; }
   html p, body p {
     font-size: 17px; }
+  html .is-opomun-text, html a, body .is-opomun-text, body a {
+    color: #3fa9f5 !important; }
 
 .is-map {
   height: 400px; }
@@ -53,12 +55,44 @@
     background-size: cover !important;
     background-position: center !important;
     background-attachment: fixed; }
+    .is-primary.hero-navbar a, .is-primary.is-opomun a {
+      color: white !important; }
     .is-primary.hero-navbar figure, .is-primary.is-opomun figure {
       border: 1px solid rgba(255, 255, 255, 0.87); }
   .is-primary.is-inverted {
     color: #3fa9f5 !important;
     background-color: white !important; }
 
-.is-opomun-text, a {
-  color: #3fa9f5 !important; }
+.schedule > .block {
+  border-top: 4px solid black;
+  border-bottom: 4px solid black;
+  padding-top: 20px;
+  padding-bottom: 20px; }
+  .schedule > .block h3 {
+    font-size: 20px;
+    margin-left: 10px;
+    margin-right: 10px; }
+  .schedule > .block p {
+    font-size: 16px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-style: italic; }
+
+.schedule:nth-child(2n - 1) {
+  background-color: #fe2b75; }
+  .schedule:nth-child(2n - 1) h3, .schedule:nth-child(2n - 1) p {
+    color: white !important; }
+
+.profile-image {
+  width: 300px !important;
+  height: 300px !important;
+  overflow: hidden;
+  padding: 20px;
+  border-radius: 150px;
+  -webkit-border-radius: 150px;
+  -moz-border-radius: 150px; }
+
+mark {
+  background-color: #3fa9f5;
+  color: white; }
 

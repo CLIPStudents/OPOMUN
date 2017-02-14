@@ -17,8 +17,8 @@
 					<tbody>
 						<tr>
 							<th>1</th>
-							<th>TBA</th>
-							<th>TBA</th>
+							<th><a href="/Content/Files/RR_GA.pdf">.PDF</a></th>
+							<th>Safeguarding World Heritage</th>
 						</tr>
 					</tbody>
 				</table>
@@ -125,8 +125,8 @@
 
 						<tr>
 							<th>3</th>
-							<th>TBA</th>
-							<th><abbr title="To be announced">TBA</abbr></th>
+							<th><a href="/Content/Files/RP_SC_3.pdf">.PDF</a></th>
+							<th><abbr title="To be announced">The Question of the South China Sea</abbr></th>
 						</tr>
 					</tbody>
 				</table>
