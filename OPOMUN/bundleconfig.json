@@ -28,11 +28,5 @@
 		"inputFiles": [
 			"Content/Scripts/gmap-venue.js"
 		]
-	},
-	{
-		"outputFileName": "Content/Scripts/Application Insights.min.js",
-		"inputFiles": [
-			"Content/Scripts/Application Insights.js"
-		]
 	}
 ]
