@@ -23,4 +23,4 @@ The following features are being planned and maintained by the OPOMUN team:
 
 ## Legal
 
-The *OPOMUN* project/repository is free to be cloned for analysis, contribution and educational analysis. You many not publish or sell this website without express and written permission from *devSparkle*, who can be contacted at [ricardo@devsparkle.me](mailto:ricardo@devsparkle.me).
+The *OPOMUN* project/repository is free to be cloned for analysis, contribution and educational analysis. You many not publish or sell this website without express and written permission from devSparkle*, who can be contacted through [devsparkle.me](https://devsparkle.me).
